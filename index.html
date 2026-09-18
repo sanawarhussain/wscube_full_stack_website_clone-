@@ -24,122 +24,626 @@
 
 
 
-            <div class="all-item">
+            <div class="all-item px-4 py-3 ">
 
-                <div class="combine">
 
-                    <div class="right">
-                        <img src="images/ws-cube-white-logo.svg" alt="">
+                <!-- Mobile Menu Button -->
+                <div class="mobile-header">
+
+                    <img src="images/ws-cube-white-logo.svg" alt="WsCube Tech" class="mobile-logo">
+
+                    <button class="mobile-menu-btn" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+
+                        <span>Programs</span>
+                        <span class="program-symbol"><i class="fa-solid fa-angles-down down-arrow"></i></span>
+
+                    </button>
+
+                </div>
+
+
+                <!-- Mobile Offcanvas -->
+                <div class="offcanvas offcanvas-start mobile-offcanvas" tabindex="-1" id="mobileMenu"
+                    aria-labelledby="mobileMenuLabel">
+
+                    <div class="offcanvas-header">
+
+
+
+
+                        <img src="images/wscube-tech-logo-2.svg" alt="WsCube Tech" class="mobile-offcanvas-logo">
+
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close">
+                        </button>
+
                     </div>
 
-                    <nav>
-                        <ul>
-                            <li class="online"> Online Programs
 
-                                <i class="fa-solid fa-angles-down down-arrow"></i>
+                    <div class="offcanvas-body">
 
+                        <ul class="mobile-nav-list">
 
-                                <div class="child-nav">
+                            <!-- Online Programs -->
 
-                                    <div class="first-ul">
+                            
+                            <li class="mobile-programs">
 
-                                        <ul class="Digital-marketing"> Digital Marketing
-
-                                            <span><i class="fa-solid fa-greater-than"></i> </span>
-
-                                            <div class="digital">
-
-                                                <li> Digital marketing mentorship program with AI </li>
-                                                <li> AI-driven performance marketing bootcamp </li>
-                                                <li> SEO and AI search optimization bootcamp </li>
-
-                                            </div>
-
-                                        </ul>
+                                <div class="mobile-nav-item">
+                                    <span>Online Programs</span>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
 
 
+                                <!-- Category List -->
+
+                                <div class="mobile-category-list">
+
+                                    <div class="mobile-category-item" data-category="digital">
+                                        <span>Digital Marketing</span>
+                                        <i class="fa-solid fa-angle-right"></i>
                                     </div>
 
-                                    <div class="second-ul">
-
-                                        <ul class="data-science"> Data Science and Analytics
-
-                                            <div class="data-analytics">
-                                                <li> Data Analytics Mentorship program with GenAI </li>
-                                                <li> Data science & AI mentorship program </li>
-                                                <li> Business Analytics Mentorship Program with GenAI</li>
-                                            </div>
-
-                                        </ul>
-
+                                    <div class="mobile-category-item" data-category="data">
+                                        <span>Data Science and Analytics</span>
+                                        <i class="fa-solid fa-angle-right"></i>
                                     </div>
 
-                                    <div class="third-ul">
-
-                                        <ul> AI Programs
-
-                                            <div class="A-I">
-                                                <li> Professional Certificate in AI </li>
-                                            </div>
-
-                                        </ul>
-
+                                    <div class="mobile-category-item" data-category="ai">
+                                        <span>AI Programs</span>
+                                        <i class="fa-solid fa-angle-right"></i>
                                     </div>
 
-                                    <div class="fourth-ul">
-
-                                        <ul> Full Stack with AI Engineering
-
-                                            <div class="full-stack">
-
-                                                <li> Full Stack Development with AI Engineering </li>
-
-                                            </div>
-
-                                        </ul>
-
+                                    <div class="mobile-category-item" data-category="fullstack">
+                                        <span>Full Stack with AI Engineering</span>
+                                        <i class="fa-solid fa-angle-right"></i>
                                     </div>
 
-
-                                    <div class="fifth-ul">
-
-                                        <ul> Cyber Security
-
-                                            <div class="cyber">
-
-                                                <li> Ethical Hacking bootcamp </li>
-                                                <li> Penetration Testing Bootcamp </li>
-                                                <li>SOC Analyst Certification </li>
-
-                                            </div>
-
-                                        </ul>
-
+                                    <div class="mobile-category-item" data-category="cyber">
+                                        <span>Cyber Security</span>
+                                        <i class="fa-solid fa-angle-right"></i>
                                     </div>
 
+                                </div>
+
+
+                                <!-- Digital Marketing Bar -->
+
+                                <div class="mobile-category-bar" id="digital">
+
+                                    <div class="mobile-back">
+                                        <i class="fa-solid fa-arrow-left"></i>
+                                        <span>Back</span>
+                                    </div>
+
+                                    <h5>Digital Marketing</h5>
+
+                                    <div class="mobile-course-card">
+                                        <img src="images/digital-marketing-icon.svg" alt="">
+                                        <span>Digital Marketing Mentorship Program with AI</span>
+                                    </div>
+
+                                    <div class="mobile-course-card">
+                                        <img src="images/digital-marketing-icon.svg" alt="">
+                                        <span>Digital Marketing Mentorship Program with AI</span>
+                                    </div>
+
+                                    <div class="mobile-course-card">
+                                        <img src="images/digital-marketing-icon.svg" alt="">
+                                        <span>Digital Marketing Mentorship Program with AI</span>
+                                    </div>
+
+                                </div>
+
+
+                                <!-- Data Science Bar -->
+
+                                <div class="mobile-category-bar" id="data">
+
+                                    <div class="mobile-back">
+                                        <i class="fa-solid fa-arrow-left"></i>
+                                        <span>Back</span>
+                                    </div>
+
+                                    <h5>Data Science and Analytics</h5>
+
+                                    <!-- Put your Data Science cards here -->
+
+                                </div>
+
+
+                                <!-- AI Bar -->
+
+                                <div class="mobile-category-bar" id="ai">
+
+                                    <div class="mobile-back">
+                                        <i class="fa-solid fa-arrow-left"></i>
+                                        <span>Back</span>
+                                    </div>
+
+                                    <h5>AI Programs</h5>
+
+                                    <!-- Put your AI cards here -->
+
+                                </div>
+
+
+                                <!-- Full Stack Bar -->
+
+                                <div class="mobile-category-bar" id="fullstack">
+
+                                    <div class="mobile-back">
+                                        <i class="fa-solid fa-arrow-left"></i>
+                                        <span>Back</span>
+                                    </div>
+
+                                    <h5>Full Stack with AI Engineering</h5>
+
+                                    <!-- Put your Full Stack cards here -->
+
+                                </div>
+
+
+                                <!-- Cyber Security Bar -->
+
+                                <div class="mobile-category-bar" id="cyber">
+
+                                    <div class="mobile-back">
+                                        <i class="fa-solid fa-arrow-left"></i>
+                                        <span>Back</span>
+                                    </div>
+
+                                    <h5>Cyber Security</h5>
+
+                                    <!-- Put your Cyber Security cards here -->
 
                                 </div>
 
                             </li>
 
 
+                            <!-- Other Navigation -->
+                            <li>
+                                <div class="mobile-nav-item">
+                                    <span>On Campus Programs</span>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                            </li>
 
-                            <li class="Campus"> On Campus Programs <i class="fa-solid fa-angle-down"></i> </li>
+                            <li>
+                                <div class="mobile-nav-item">
+                                    <span>Masterclass</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="mobile-nav-item">
+                                    <span>Free Resource</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="mobile-nav-item">
+                                    <span>Alumni</span>
+                                </div>
+                            </li>
+
+                        </ul>
+
+
+                        <!-- Login -->
+                        <div class="mobile-login">
+
+                            <button>
+                                Login
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+                <div class="right">
+                    <img src="images/ws-cube-white-logo.svg" alt="">
+                </div>
+
+
+
+                <div class="combine">
+
+                    <nav>
+
+                        <ul>
+
+                            <li class="online"> Online Programs <i class="fa-solid fa-angles-down down-arrow"></i>
+
+
+                                <div class="category-list">
+
+
+                                    <div class="category-item">
+
+                                        <div
+                                            class="category-content d-flex  justify-content-between  text-nowrap  gap-5 ">
+
+                                            <span>Digital Marketing</span>
+
+                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none"
+                                                class="category-arrow">
+                                                <path d="M1.5 1L6.5 6L1.5 11" stroke="currentColor" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+
+
+                                        </div>
+
+
+                                        <div class="category-bar p-5 ">
+
+                                            <div class="pb-4">
+                                                <span> Digital Marketing </span>
+                                            </div>
+
+                                            <div class="all-card-category h-full p-12">
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="category-item">
+
+                                        <div class="category-content d-flex  text-nowrap  gap-5 ">
+
+                                            <div><span> Data Science and Analytics </span></div>
+
+                                            <img loading="lazy" width="32" height="20" decoding="async" data-nimg="1"
+                                                src="https://deen3evddmddt.cloudfront.net/static/images/icons/new-tag-2.svg"
+                                                style="color: transparent;">
+
+
+                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none"
+                                                class="category-arrow">
+                                                <path d="M1.5 1L6.5 6L1.5 11" stroke="currentColor" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+
+                                        </div>
+
+                                        <div class="category-bar p-5 ">
+
+                                            <div class="pb-4">
+                                                <span> Digital Marketing </span>
+                                            </div>
+
+                                            <div class="all-card-category h-full p-12">
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="category-item">
+
+                                        <div class="category-content d-flex  text-nowrap  gap-5 ">
+
+                                            <span> AI Programs </span>
+
+
+
+                                            <img loading="lazy" width="32" height="20" decoding="async" data-nimg="1"
+                                                src="https://deen3evddmddt.cloudfront.net/static/images/icons/new-tag-2.svg"
+                                                style="color: transparent;">
+
+                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none"
+                                                class="category-arrow">
+                                                <path d="M1.5 1L6.5 6L1.5 11" stroke="currentColor" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+
+                                        </div>
+
+
+                                        <div class="category-bar p-5 ">
+
+                                            <div class="pb-4">
+                                                <span> Digital Marketing </span>
+                                            </div>
+
+                                            <div class="all-card-category h-full p-12">
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="category-item">
+
+                                        <div class="category-content d-flex  text-nowrap  gap-5 ">
+
+                                            <span> Full Stack with AI Engineering </span>
+
+                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none"
+                                                class="category-arrow">
+                                                <path d="M1.5 1L6.5 6L1.5 11" stroke="currentColor" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+
+                                        </div>
+
+                                        <div class="category-bar p-5 ">
+
+                                            <div class="pb-4">
+                                                <span> Digital Marketing </span>
+                                            </div>
+
+                                            <div class="all-card-category h-full p-12">
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="category-item">
+
+                                        <div class="category-content d-flex  text-nowrap  gap-5 ">
+
+                                            <span> Cyber Security </span>
+
+                                            <img loading="lazy" width="32" height="20" decoding="async" data-nimg="1"
+                                                src="https://deen3evddmddt.cloudfront.net/static/images/icons/new-tag-2.svg"
+                                                style="color: transparent;">
+
+                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none"
+                                                class="category-arrow">
+                                                <path d="M1.5 1L6.5 6L1.5 11" stroke="currentColor" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+
+                                        </div>
+
+
+                                        <div class="category-bar p-5 ">
+
+                                            <div class="pb-4">
+                                                <span> Digital Marketing </span>
+                                            </div>
+
+                                            <div class="all-card-category h-full p-12">
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+
+                            </li>
+
+                            <li class="campus"> On Campus Programs <i class="fa-solid fa-angle-down"></i>
+
+                                <div class="category-list">
+
+                                    <div class="category-item">
+
+                                        <div class="category-content d-flex  text-nowrap  gap-5 ">
+
+                                            <div><span class="text-black"> Jaipur </span></div>
+
+                                            <img loading="lazy" width="32" height="20" decoding="async" data-nimg="1"
+                                                src="https://deen3evddmddt.cloudfront.net/static/images/icons/new-tag-2.svg"
+                                                style="color: transparent;">
+
+
+                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none"
+                                                class="category-arrow">
+                                                <path d="M1.5 1L6.5 6L1.5 11" stroke="currentColor" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+
+                                        </div>
+
+                                        <div class="category-bar p-5 ">
+
+                                            <div class="pb-4">
+                                                <span> Digital Marketing </span>
+                                            </div>
+
+                                            <div class="all-card-category h-full p-12">
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="category-item">
+
+                                        <div class="category-content d-flex  text-nowrap  gap-5 ">
+
+                                            <span class="text-black"> AI Programs </span>
+
+
+
+                                            <img loading="lazy" width="32" height="20" decoding="async" data-nimg="1"
+                                                src="https://deen3evddmddt.cloudfront.net/static/images/icons/new-tag-2.svg"
+                                                style="color: transparent;">
+
+                                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none"
+                                                class="category-arrow">
+                                                <path d="M1.5 1L6.5 6L1.5 11" stroke="currentColor" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+
+                                        </div>
+
+
+                                        <div class="category-bar p-5 ">
+
+                                            <div class="pb-4">
+                                                <span> Digital Marketing </span>
+                                            </div>
+
+                                            <div class="all-card-category h-full p-12">
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                                <div class="head-1">
+                                                    <img src="images/digital-marketing-icon.svg" alt="">
+                                                    <span> Digital Marketing Mentorship program with AI </span>
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                            </li>
 
                             <li> Masterclass </li>
                             <li> Free Resource </li>
                             <li> Alumni </li>
+
                         </ul>
+
                     </nav>
 
                 </div>
 
-                <div class="left">
+
+                <div class="left  ">
                     <button> Login </button>
                 </div>
 
-            </div>
 
+            </div>
 
         </section>
 
@@ -149,8 +653,7 @@
     <main>
 
 
-
-
+        <!-- this is hero sectioon  -->
         <section class="container-fluid">
 
             <div class="hero ">
@@ -163,10 +666,21 @@
 
                             <div class="hero-content ">
 
-                                <div class="mb-5">
-                                    <span class="Ai-powered"> AI powered </span>
-                                    <span class="stream"><img src="images/banner-stream.svg" alt=""></span>
-                                    <span class="live-online"> Live Online </span>
+                                <div class="online-badge">
+
+                                    <span class="Ai-powered">
+                                        AI Powered
+                                    </span>
+
+                                    <span class="stream">
+                                        <span class="pulse"></span>
+                                        <img src="images/banner-stream.svg" alt="">
+                                    </span>
+
+                                    <span class="live-online">
+                                        LIVE ONLINE
+                                    </span>
+
                                 </div>
 
                                 <h1> Full Stack Development Course with AI Engineering </h1>
@@ -242,7 +756,7 @@
 
                                 </div>
 
-                                <div class="rating col">
+                                <div class="rating  col">
 
 
                                     <div class="uper">
@@ -262,7 +776,7 @@
 
                                 </div>
 
-                                <div class="rating col">
+                                <div class="rating  col">
 
 
                                     <div class="uper">
@@ -272,7 +786,7 @@
 
                                     </div>
 
-                                    <div class="lower">
+                                    <div class="lower ">
 
                                         <hr class="line">
                                         <span class=> Rating </span>
@@ -292,7 +806,7 @@
                                 <source src="videos/hero-video.mp4">
                             </video>
 
-                            <div class="row  p-0 ">
+                            <div class="row  p-0  g-0">
 
                                 <div class="left-btn-img  col-6   p-0 ">
 
@@ -329,14 +843,14 @@
         </section>
 
 
-
+        <!-- what  makes program special  -->
         <section class="container-fluid pt-60px ">
 
             <div class="container">
 
                 <div class="row mb-4">
 
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 col-sm-12">
 
                         <div class="program-special">
 
@@ -357,17 +871,19 @@
                     <!-- first two box  -->
 
 
-                    <div class="col-6 ">
+                    <div class="col-lg-6 col-sm-12">
 
-                        <div class="master-frontend d-flex flex-column justify-content-between  rounded-4  p-5 ">
+                        <div
+                            class="master-frontend d-flex flex-column justify-content-lg-between gap-lg-0 justify-content-sm-start gap-sm-3  rounded-4  p-lg-5 p-sm-3">
 
 
                             <div>
                                 <span class="curri rounded-4 bg-white border-primary-subtle "> CURRICULUM </span>
                             </div>
                             <div>
-                                <h3 class="fw-bold"> AI-Powered Full Stack Curriculum </h3>
-                                <p> Master frontend, backend, databases, APIs, MERN Stack, deployment, and AI
+                                <h3 class="fw-bold fs-lg-4 fs-sm-6 "> AI-Powered Full Stack Curriculum </h3>
+                                <p class=" fs-lg-4 fs-sm-6 "> Master frontend, backend, databases, APIs, MERN Stack,
+                                    deployment, and AI
                                     Engineering
                                     through a practical curriculum built around modern product development. </p>
                             </div>
@@ -376,39 +892,40 @@
 
                     </div>
 
-                    <div class="col-6 ">
+                    <div class="col-lg-6 col-sm-12 ">
 
-                        <div class="live-session   d-flex flex-column rounded-4 p-5  ">
+                        <div class="live-session   d-flex flex-column rounded-4 p-lg-5 p-sm-3  gap-sm-5 ">
 
                             <div> <span class="curri  rounded-4 bg-white  border-primary-subtle  "> LIVE:LEARN & BUILD
                                     TOGETHER </span> </div>
-                            <h3 class="fw-bold  "> Live Sessions from Experts </h3>
-                            <p> Learn directly from mentors who guide you through real coding workflows, debugging,
-                                architecture, deployment, and AI-powered application development. </p>
-                            <img class="live-session-img mt-auto" src="images/h-card-2-fsd.webp" alt="">
+                            <div class="head_para">
+                                <h3 class="fw-bold fs-lg-4 fs-sm-6  "> Live Sessions from Experts </h3>
+                                <p> Learn directly from mentors who guide you through real coding workflows, debugging,
+                                    architecture, deployment, and AI-powered application development. </p>
+                                <img class="live-session-img mt-auto" src="images/h-card-2-fsd.webp" alt="">
+                            </div>
                         </div>
 
                     </div>
 
                     <!-- second two box  -->
 
-                    <div class="col-5">
+                    <div class="col-lg-5 col-sm-12">
 
                         <div class="live-session   d-flex flex-column gap-3 rounded-4 p-5  ">
 
                             <div>
-                                <span class="curri  rounded-4 bg-white  border-primary-subtle  "> LIVE:LEARN & BUILD
-                                    TOGETHER </span>
+                                <span class="curri  rounded-4 bg-white  border-primary-subtle  "> Community </span>
                             </div>
-                            <h3 class="fw-bold  "> Live Sessions from Experts </h3>
+                            <h3 class="fw-bold fs-lg-4 fs-sm-6 "> Exclusie Developer Community </h3>
                             <p> Learn directly from mentors who guide you through real coding workflows, debugging,
                                 architecture, deployment, and AI-powered application development. </p>
-                            <img class="live-session-img mt-auto" src="images/texyt-written-img.webp" alt="">
+                            <img class="live-session_ mt-auto" src="images/texyt-written-img.webp" alt="">
                         </div>
 
                     </div>
 
-                    <div class="col-7">
+                    <div class="col-lg-7 col-sm-12">
 
                         <div class="master-frontend d-flex flex-column justify-content-between  rounded-4  p-5 ">
 
@@ -501,7 +1018,7 @@
 
                     <!-- third two box  -->
 
-                    <div class="col-6">
+                    <div class="col-lg-6 col-sm-12">
 
                         <div class="live-session   d-flex flex-column gap-3 rounded-4 p-5  ">
 
@@ -589,30 +1106,31 @@
 
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-lg-6 col-sm-12">
 
                         <div
                             class="master-frontend d-flex flex-column justify-content-between  position-relative  rounded-4  p-5 ">
 
+                            <div>
+                                <span class="curri rounded-4 bg-white border-primary-subtle "> LEARNER PORTFOLIO
+                                </span>
 
-                            <div class="d-flex flex-column">
-                                <div> <span class="curri rounded-4 bg-white border-primary-subtle "> LEARNER PORTFOLIO
-                                    </span></div>
-                                <div class=>
-                                    <h3 class="fw-bold"> Free Portfolio Website </h3>
-                                    <p> Create a professional portfolio to showcase your live projects, GitHub work,
-                                        deployed applications, and AI-powered products to recruiters. </p>
-                                </div>
+                                <h3 class="fw-bold"> Free Portfolio Website </h3>
+                                <p> Create a professional portfolio to showcase your live projects, GitHub work,
+                                    deployed applications, and AI-powered products to recruiters. </p>
                             </div>
-                            <img src="images/portfolio-details-1.webp" alt="" width="354" height="377"
-                                class="portfolio-img">
+
+                            <div class="portfolio-img">
+                                <img src="images/portfolio-details-1.webp" alt="">
+                            </div>
+
                         </div>
 
                     </div>
 
                     <!--  fourth section  -->
 
-                    <div class="col-7 ">
+                    <div class="col-lg-7 col-sm-12">
 
                         <div class="master-frontend d-flex flex-column justify-content-between  rounded-4  p-5 ">
 
@@ -631,7 +1149,7 @@
 
                     </div>
 
-                    <div class="col-5 ">
+                    <div class="col-lg-5 col-sm-12 ">
 
                         <div class="live-session   d-flex flex-column rounded-4 p-5  ">
 
@@ -643,7 +1161,7 @@
 
                             <div class="fourth-sec-img d-flex  ">
                                 <img src="images/live-exp.webp" alt="" height="134" width="340">
-                                <img src="images/trophy-icon.svg" alt="" width="160" height="160">
+
                             </div>
                         </div>
 
@@ -656,139 +1174,127 @@
         </section>
 
 
+
+        <!-- full stack development course curriculum  -->
         <section class="container-fluid py-5">
 
-            <div class=" container">
+            <div class="container">
 
-              
+                <div class="uper-part">
 
-                    <div class="uper-part">
+                    <div class="heading-button-para d-flex justify-content-between">
 
-                        <div class="heading-button-para d-flex justify-content-between">
-
-                            <div class="third-content">
-
-                                <h4 class="fs-1"> Full Stack Development Course Curriculum </h4>
-
-                                <p> A detailed overview curriculum designed with hiring insights and modern full stack
-                                    needs. </p>
-                            </div>
-
-                           <div> <span class="download bg-white"> Download Curriculum </span> </div>
-
+                        <div class="third-content">
+                            <h4 class="fs-1"> Full Stack Development Course Curriculum </h4>
+                            <p> A detailed overview curriculum designed with hiring insights and modern full stack
+                                needs. </p>
                         </div>
 
-
-
-                        <div class="all-mil d-flex justify-content-between">
-
-                            <div class="milestone d-flex flex-column my-5">
-                                <span class="mil"> Milestone </span>
-                                <span class="fs-5 fw-bold"><img src="images/cur-milstone-icon.svg" alt="" height="20"
-                                        width="20"> Five</span>
-                            </div>
-                            <div class="milestone d-flex flex-column my-5">
-                                <span class="mil"> Duration </span>
-                                <span class="fs-5 fw-bold"><img src="images/cur-milstone-icon.svg" alt="" height="20"
-                                        width="20"> 20 Weeks </span>
-                            </div>
-                            <div class="milestone d-flex flex-column my-5">
-                                <span class="mil"> Mode </span>
-                                <span class="fs-5 fw-bold"><img src="images/cur-milstone-icon.svg" alt="" height="20"
-                                        width="20"> Online </span>
-                            </div>
-
-                            <div class="milestone d-flex flex-column my-5">
-                                <span class="mil"> Live Session </span>
-                                <span class="fs-5 fw-bold"><img src="images/cur-milstone-icon.svg" alt="" height="20"
-                                        width="20"> 144+ hrs </span>
-                            </div>
-                            <div class="milestone d-flex flex-column my-5">
-                                <span class="mil"> project </span>
-                                <span class="fs-5 fw-bold"><img src="images/cur-milstone-icon.svg" alt="" height="20"
-                                        width="20"> 19 + </span>
-                            </div>
-                        </div>
+                        <div> <span class="download bg-white"> Download Curriculum </span> </div>
 
                     </div>
 
-              
+                    <div class="all-mil d-flex justify-content-between">
+
+                        <div class="milestone d-flex flex-column my-5">
+                            <span class="mil"> Milestone </span>
+                            <span class="fs-5 fw-bold"><img src="images/cur-milstone-icon.svg" alt="" height="20"
+                                    width="20"> Five</span>
+                        </div>
+                        <div class="milestone d-flex flex-column my-5">
+                            <span class="mil"> Duration </span>
+                            <span class="fs-5 fw-bold"><img src="images/cur-milstone-icon.svg" alt="" height="20"
+                                    width="20"> 20 Weeks </span>
+                        </div>
+                        <div class="milestone d-flex flex-column my-5">
+                            <span class="mil"> Mode </span>
+                            <span class="fs-5 fw-bold"><img src="images/cur-milstone-icon.svg" alt="" height="20"
+                                    width="20"> Online </span>
+                        </div>
+
+                        <div class="milestone d-flex flex-column my-5">
+                            <span class="mil"> Live Session </span>
+                            <span class="fs-5 fw-bold"><img src="images/cur-milstone-icon.svg" alt="" height="20"
+                                    width="20"> 144+ hrs </span>
+                        </div>
+                        <div class="milestone d-flex flex-column my-5">
+                            <span class="mil"> project </span>
+                            <span class="fs-5 fw-bold"><img src="images/cur-milstone-icon.svg" alt="" height="20"
+                                    width="20"> 19 + </span>
+                        </div>
+                    </div>
+
+                </div>
 
                 <div class="lower-part">
 
-                    <div class="d-flex align-items-start ">
+                    <div class="d-flex align-items-start">
 
-                        <div class="nav flex-column  gap-3 nav-pills me-3" id="v-pills-tab" role="tablist"
+                        <div class="nav flex-column gap-3 nav-pills me-3" id="v-pills-tab" role="tablist"
                             aria-orientation="vertical">
 
-                            <button class="first-button-nav nav-link" id="v-pills-home-tab" data-bs-toggle="pill"
-                                data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
-                                aria-selected="true">
+                            <button class="first-button-nav text-start nav-link active" id="v-pills-home-tab"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab"
+                                aria-controls="v-pills-home" aria-selected="true">
                                 Milestone 1 ,<br> web foundation
                             </button>
 
-
-
-                            <button class="first-button-nav nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
-                                data-bs-target="#v-pills-profile" type="button" role="tab"
+                            <button class="first-button-nav text-start nav-link" id="v-pills-profile-tab"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab"
                                 aria-controls="v-pills-profile" aria-selected="false">
-                                Milestone 2 <br> Javascript
-                                Mastery </button>
+                                Milestone 2 <br> Javascript Mastery
+                            </button>
 
-                            <button class="first-button-nav nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill"
-                                data-bs-target="#v-pills-disabled" type="button" role="tab"
+                            <button class="first-button-nav text-start nav-link" id="v-pills-disabled-tab"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab"
                                 aria-controls="v-pills-disabled" aria-selected="false">
                                 Milestone 3 <br> Javascript
                             </button>
 
-                            <button class="first-button-nav  nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
-                                data-bs-target="#v-pills-messages" type="button" role="tab"
+                            <button class="first-button-nav text-start nav-link" id="v-pills-messages-tab"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab"
                                 aria-controls="v-pills-messages" aria-selected="false">
                                 Milestone 4 <br> Javascript
                             </button>
 
-                            <button class="first-button-nav  nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
-                                data-bs-target="#v-pills-settings" type="button" role="tab"
+                            <button class="first-button-nav text-start nav-link" id="v-pills-settings-tab"
+                                data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab"
                                 aria-controls="v-pills-settings" aria-selected="false">
                                 Milestone 5 <br> Javascript
                             </button>
 
                         </div>
 
-                        <div class="tab-content" id="v-pills-tabContent ">
+                        <div class="tab-content" id="v-pills-tabContent">
 
+                            <!-- Milestone 1 : Web Foundation -->
+                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                aria-labelledby="v-pills-home-tab">
 
-                            <div class="tab-pane fade show active bg-white" id="v-pills-home" role="tabpanel"
-                                aria-labelledby="v-pills-home-tab" tabindex="0">
+                                <div class="head-bar d-flex flex-column justify-content-between">
 
-                                <div class="head-bar d-flex flex-column justify-content-between  ">
-
-                                    <div class="tool-bar- row   ">
+                                    <div class="tool-bar- row">
 
                                         <div class="col-9 bg-white">
-
-                                            <div class="head-content ">
-                                                <p> web foundation </p>
-                                                <span class="live-sessions"> 12</span> <span>live sessions</span>
-                                                <span class="live-sessions"> 4 </span> <span> Projects </span>
-                                                <span class="live-sessions"> 4 </span> <span> Quizzes </span>
+                                            <div class="head-content">
+                                                <p class="web-foundation fs-3"> Web Foundation </p>
+                                                <span class="live-sessions px-1 py-1"> 12</span> <span> live
+                                                    sessions</span>
+                                                <span class="live-sessions px-1 py-1"> 4 </span> <span> Projects </span>
+                                                <span class="live-sessions px-1 py-1"> 4 </span> <span> Quizzes </span>
                                             </div>
-
                                         </div>
 
-                                        <div class="col-3  justify-content-end  bg-white">
-
+                                        <div class="col-3 justify-content-end bg-white">
                                             <div class="date">
                                                 <span> Duration - 4 weeks </span>
                                             </div>
-
                                         </div>
 
-
                                         <div class="col-6 p-5">
-                                            <span class="week-1  fs-12 fw-400 px-2 py-2 rounded-2 mb-1 "> week 1</span>
+                                            <span class="week-1 fs-12 fw-400 px-1 py-1 rounded-2 mb-1"> week 1</span>
                                             <br>
-                                            <span class="getting fs-14 mt-1 "> Getting Started with HTML & the Web
+                                            <span class="getting fs-14 mt-1"> Getting Started with HTML & the Web
                                             </span>
                                             <hr>
                                             <ul>
@@ -799,10 +1305,11 @@
                                                 <li> Accessibility basics </li>
                                             </ul>
                                         </div>
+
                                         <div class="col-6 p-5">
-                                            <span class="week-1  fs-12 fw-400 px-2 py-2 rounded-2 mb-1 "> week 1</span>
+                                            <span class="week-1 fs-12 fw-400 px-1 py-1 rounded-2 mb-1"> week 1</span>
                                             <br>
-                                            <span class="getting fs-14 mt-1 "> Getting Started with HTML & the Web
+                                            <span class="getting fs-14 mt-1"> Getting Started with HTML & the Web
                                             </span>
                                             <hr>
                                             <ul>
@@ -813,10 +1320,11 @@
                                                 <li> Accessibility basics </li>
                                             </ul>
                                         </div>
+
                                         <div class="col-6 p-5">
-                                            <span class="week-1  fs-12 fw-400 px-2 py-2 rounded-2 mb-1 "> week 1</span>
+                                            <span class="week-1 fs-12 fw-400 px-1 py-1 rounded-2 mb-1"> week 1</span>
                                             <br>
-                                            <span class="getting fs-14 mt-1 "> Getting Started with HTML & the Web
+                                            <span class="getting fs-14 mt-1"> Getting Started with HTML & the Web
                                             </span>
                                             <hr>
                                             <ul>
@@ -827,10 +1335,11 @@
                                                 <li> Accessibility basics </li>
                                             </ul>
                                         </div>
+
                                         <div class="col-6 p-5">
-                                            <span class="week-1  fs-12 fw-400 px-2 py-2 rounded-2 mb-1 "> week 1</span>
+                                            <span class="week-1 fs-12 fw-400 px-1 py-1 rounded-2 mb-1"> week 1</span>
                                             <br>
-                                            <span class="getting fs-14 mt-1 "> Getting Started with HTML & the Web
+                                            <span class="getting fs-14 mt-1"> Getting Started with HTML & the Web
                                             </span>
                                             <hr>
                                             <ul>
@@ -843,28 +1352,370 @@
                                         </div>
 
                                     </div>
-
                                 </div>
-
                             </div>
 
+                            <!-- Milestone 2 : Desktop -->
                             <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                                aria-labelledby="v-pills-profile-tab" tabindex="0">
+                                aria-labelledby="v-pills-profile-tab">
 
-                              
+                                <div class="head-bar d-flex flex-column justify-content-between">
 
+                                    <div class="tool-bar- row">
+
+                                        <div class="col-9 bg-white">
+                                            <div class="head-content">
+                                                <p class="web-foundation fs-3"> desktop </p>
+                                                <span class="live-sessions px-1 py-1"> 12</span> <span> live
+                                                    sessions</span>
+                                                <span class="live-sessions px-1 py-1"> 4 </span> <span> Projects </span>
+                                                <span class="live-sessions px-1 py-1"> 4 </span> <span> Quizzes </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-3 justify-content-end bg-white">
+                                            <div class="date">
+                                                <span> Duration - 4 weeks </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6 p-5">
+                                            <span class="week-1 fs-12 fw-400 px-1 py-1 rounded-2 mb-1"> week 1</span>
+                                            <br>
+                                            <span class="getting fs-14 mt-1"> Getting Started with HTML & the Web
+                                            </span>
+                                            <hr>
+                                            <ul>
+                                                <li> How the internet actually works </li>
+                                                <li> Introduction to HTML </li>
+                                                <li> Semantic HTML tags </li>
+                                                <li> Forms, inputs, and labels </li>
+                                                <li> Accessibility basics </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-6 p-5">
+                                            <span class="week-1 fs-12 fw-400 px-1 py-1 rounded-2 mb-1"> week 1</span>
+                                            <br>
+                                            <span class="getting fs-14 mt-1"> Getting Started with HTML & the Web
+                                            </span>
+                                            <hr>
+                                            <ul>
+                                                <li> How the internet actually works </li>
+                                                <li> Introduction to HTML </li>
+                                                <li> Semantic HTML tags </li>
+                                                <li> Forms, inputs, and labels </li>
+                                                <li> Accessibility basics </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-6 p-5">
+                                            <span class="week-1 fs-12 fw-400 px-1 py-1 rounded-2 mb-1"> week 1</span>
+                                            <br>
+                                            <span class="getting fs-14 mt-1"> Getting Started with HTML & the Web
+                                            </span>
+                                            <hr>
+                                            <ul>
+                                                <li> How the internet actually works </li>
+                                                <li> Introduction to HTML </li>
+                                                <li> Semantic HTML tags </li>
+                                                <li> Forms, inputs, and labels </li>
+                                                <li> Accessibility basics </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-6 p-5">
+                                            <span class="week-1 fs-12 fw-400 px-1 py-1 rounded-2 mb-1"> week 1</span>
+                                            <br>
+                                            <span class="getting fs-14 mt-1"> Getting Started with HTML & the Web
+                                            </span>
+                                            <hr>
+                                            <ul>
+                                                <li> How the internet actually works </li>
+                                                <li> Introduction to HTML </li>
+                                                <li> Semantic HTML tags </li>
+                                                <li> Forms, inputs, and labels </li>
+                                                <li> Accessibility basics </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
                                 </div>
+                            </div>
+
+                            <!-- Milestone 3 : Mobile -->
+                            <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel"
+                                aria-labelledby="v-pills-disabled-tab">
+
+                                <div class="head-bar d-flex flex-column justify-content-between">
+
+                                    <div class="tool-bar- row">
+
+                                        <div class="col-9 bg-white">
+                                            <div class="head-content">
+                                                <p class="web-foundation fs-3"> mobile </p>
+                                                <span class="live-sessions px-1 py-1"> 12</span> <span> live
+                                                    sessions</span>
+                                                <span class="live-sessions px-1 py-1"> 4 </span> <span> Projects </span>
+                                                <span class="live-sessions px-1 py-1"> 4 </span> <span> Quizzes </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-3 justify-content-end bg-white">
+                                            <div class="date">
+                                                <span> Duration - 4 weeks </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6 p-5">
+                                            <span class="week-1 fs-12 fw-400 px-1 py-1 rounded-2 mb-1"> week 1</span>
+                                            <br>
+                                            <span class="getting fs-14 mt-1"> Getting Started with HTML & the Web
+                                            </span>
+                                            <hr>
+                                            <ul>
+                                                <li> How the javascrpt workks actually </li>
+                                                <li> Introduction to HTML </li>
+                                                <li> Semantic HTML tags </li>
+                                                <li> Forms, inputs, and labels </li>
+                                                <li> Accessibility basics </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-6 p-5">
+                                            <span class="week-1 fs-12 fw-400 px-1 py-1 rounded-2 mb-1"> week 1</span>
+                                            <br>
+                                            <span class="getting fs-14 mt-1"> Getting Started with HTML & the Web
+                                            </span>
+                                            <hr>
+                                            <ul>
+                                                <li> How the internet actually works </li>
+                                                <li> Introduction to HTML </li>
+                                                <li> Semantic HTML tags </li>
+                                                <li> Forms, inputs, and labels </li>
+                                                <li> Accessibility basics </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-6 p-5">
+                                            <span class="week-1 fs-12 fw-400 px-1 py-1 rounded-2 mb-1"> week 1</span>
+                                            <br>
+                                            <span class="getting fs-14 mt-1"> Getting started with javascript </span>
+                                            <hr>
+                                            <ul>
+                                                <li> How the varaibles work </li>
+                                                <li> Intro to if and else </li>
+                                                <li> Semantic HTML tags </li>
+                                                <li> Forms, inputs, and labels </li>
+                                                <li> Accessibility basics </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-6 p-5">
+                                            <span class="week-1 fs-12 fw-400 px-1 py-1 rounded-2 mb-1"> week 1</span>
+                                            <br>
+                                            <span class="getting fs-14 mt-1"> Getting Started with HTML & the Web
+                                            </span>
+                                            <hr>
+                                            <ul>
+                                                <li> How the internet actually works </li>
+                                                <li> Introduction to HTML </li>
+                                                <li> Semantic HTML tags </li>
+                                                <li> Forms, inputs, and labels </li>
+                                                <li> Accessibility basics </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+
 
                             </div>
 
-                            <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel"
-                                aria-labelledby="v-pills-disabled-tab" tabindex="0">...</div>
-
+                            <!-- Milestone 4 (empty for now) -->
                             <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                                aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
+                                aria-labelledby="v-pills-messages-tab">
 
+
+                                <div class="head-bar d-flex flex-column justify-content-between">
+
+                                    <div class="tool-bar- row">
+
+                                        <div class="col-9 bg-white">
+                                            <div class="head-content">
+                                                <p class="web-foundation fs-3"> mobile </p>
+                                                <span class="live-sessions px-1 py-1"> 12</span> <span> live
+                                                    sessions</span>
+                                                <span class="live-sessions px-1 py-1"> 4 </span> <span> Projects </span>
+                                                <span class="live-sessions px-1 py-1"> 4 </span> <span> Quizzes </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-3 justify-content-end bg-white">
+                                            <div class="date">
+                                                <span> Duration - 4 weeks </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6 p-5">
+                                            <span class="week-1 fs-12 fw-400 px-1 py-1 rounded-2 mb-1"> week 1</span>
+                                            <br>
+                                            <span class="getting fs-14 mt-1"> Getting Started with HTML & the Web
+                                            </span>
+                                            <hr>
+                                            <ul>
+                                                <li> How the javascrpt workks actually </li>
+                                                <li> Introduction to HTML </li>
+                                                <li> Semantic HTML tags </li>
+                                                <li> Forms, inputs, and labels </li>
+                                                <li> Accessibility basics </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-6 p-5">
+                                            <span class="week-1 fs-12 fw-400 px-1 py-1 rounded-2 mb-1"> week 1</span>
+                                            <br>
+                                            <span class="getting fs-14 mt-1"> Getting Started with HTML & the Web
+                                            </span>
+                                            <hr>
+                                            <ul>
+                                                <li> How the internet actually works </li>
+                                                <li> Introduction to HTML </li>
+                                                <li> Semantic HTML tags </li>
+                                                <li> Forms, inputs, and labels </li>
+                                                <li> Accessibility basics </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-6 p-5">
+                                            <span class="week-1 fs-12 fw-400 px-1 py-1 rounded-2 mb-1"> week 1</span>
+                                            <br>
+                                            <span class="getting fs-14 mt-1"> Getting started with javascript </span>
+                                            <hr>
+                                            <ul>
+                                                <li> How the varaibles work </li>
+                                                <li> Intro to if and else </li>
+                                                <li> Semantic HTML tags </li>
+                                                <li> Forms, inputs, and labels </li>
+                                                <li> Accessibility basics </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-6 p-5">
+                                            <span class="week-1 fs-12 fw-400 px-1 py-1 rounded-2 mb-1"> week 1</span>
+                                            <br>
+                                            <span class="getting fs-14 mt-1"> Getting Started with HTML & the Web
+                                            </span>
+                                            <hr>
+                                            <ul>
+                                                <li> How the internet actually works </li>
+                                                <li> Introduction to HTML </li>
+                                                <li> Semantic HTML tags </li>
+                                                <li> Forms, inputs, and labels </li>
+                                                <li> Accessibility basics </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                            <!-- Milestone 5 (empty for now) -->
                             <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                                aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+                                aria-labelledby="v-pills-settings-tab">
+
+
+
+                                <div class="head-bar d-flex flex-column justify-content-between">
+
+                                    <div class="tool-bar- row">
+
+                                        <div class="col-9 bg-white">
+                                            <div class="head-content">
+                                                <p class="web-foundation fs-3"> mobile </p>
+                                                <span class="live-sessions px-1 py-1"> 12</span> <span> live
+                                                    sessions</span>
+                                                <span class="live-sessions px-1 py-1"> 4 </span> <span> Projects </span>
+                                                <span class="live-sessions px-1 py-1"> 4 </span> <span> Quizzes </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-3 justify-content-end bg-white">
+                                            <div class="date">
+                                                <span> Duration - 4 weeks </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6 p-5">
+                                            <span class="week-1 fs-12 fw-400 px-1 py-1 rounded-2 mb-1"> week 1</span>
+                                            <br>
+                                            <span class="getting fs-14 mt-1"> Getting Started with HTML & the Web
+                                            </span>
+                                            <hr>
+                                            <ul>
+                                                <li> How the javascrpt workks actually </li>
+                                                <li> Introduction to HTML </li>
+                                                <li> Semantic HTML tags </li>
+                                                <li> Forms, inputs, and labels </li>
+                                                <li> Accessibility basics </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-6 p-5">
+                                            <span class="week-1 fs-12 fw-400 px-1 py-1 rounded-2 mb-1"> week 1</span>
+                                            <br>
+                                            <span class="getting fs-14 mt-1"> Getting Started with HTML & the Web
+                                            </span>
+                                            <hr>
+                                            <ul>
+                                                <li> How the internet actually works </li>
+                                                <li> Introduction to HTML </li>
+                                                <li> Semantic HTML tags </li>
+                                                <li> Forms, inputs, and labels </li>
+                                                <li> Accessibility basics </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-6 p-5">
+                                            <span class="week-1 fs-12 fw-400 px-1 py-1 rounded-2 mb-1"> week 1</span>
+                                            <br>
+                                            <span class="getting fs-14 mt-1"> Getting started with javascript </span>
+                                            <hr>
+                                            <ul>
+                                                <li> How the varaibles work </li>
+                                                <li> Intro to if and else </li>
+                                                <li> Semantic HTML tags </li>
+                                                <li> Forms, inputs, and labels </li>
+                                                <li> Accessibility basics </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-6 p-5">
+                                            <span class="week-1 fs-12 fw-400 px-1 py-1 rounded-2 mb-1"> week 1</span>
+                                            <br>
+                                            <span class="getting fs-14 mt-1"> Getting Started with HTML & the Web
+                                            </span>
+                                            <hr>
+                                            <ul>
+                                                <li> How the internet actually works </li>
+                                                <li> Introduction to HTML </li>
+                                                <li> Semantic HTML tags </li>
+                                                <li> Forms, inputs, and labels </li>
+                                                <li> Accessibility basics </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
 
                         </div>
 
@@ -875,6 +1726,2183 @@
             </div>
 
         </section>
+
+
+        <!--  what sets Wcube Tech Apart from other coders -->
+        <section class="comparison-section">
+
+            <div class="container">
+
+
+                <!-- =====================================
+                 HEADING
+            ====================================== -->
+
+                <div class="comparison-heading text-center">
+
+                    <span class="comparison-badge">
+                        COMPARISON
+                    </span>
+
+                    <h2>
+                        What Sets WsCube Tech Apart From Other Coders
+                    </h2>
+
+                    <p>
+                        Everything you need to learn, build, and become job-ready -
+                        all in one program.
+                    </p>
+
+                </div>
+
+
+                <!-- =====================================
+                 COMPARISON TABLE
+            ====================================== -->
+
+                <div class="comparison-table">
+
+
+                    <!-- =================================
+                     COLUMN 1
+                     FEATURES
+                ================================== -->
+
+                    <div class="comparison-column features-column">
+
+
+                        <!-- Logo -->
+
+                        <div class="comparison-header logo-header">
+
+                            <img src="images/ws-cube-white-logo.svg" alt="WsCube Tech">
+
+                        </div>
+
+
+                        <!-- Feature 1 -->
+
+                        <div class="comparison-row">
+                            <span>
+                                Live Structured Cohort
+                            </span>
+                        </div>
+
+
+                        <!-- Feature 2 -->
+
+                        <div class="comparison-row">
+                            <span>
+                                AI Engineering Included
+                            </span>
+                        </div>
+
+
+                        <!-- Feature 3 -->
+
+                        <div class="comparison-row">
+                            <span>
+                                Frontend + Backend + MERN
+                            </span>
+                        </div>
+
+
+                        <!-- Feature 4 -->
+
+                        <div class="comparison-row">
+                            <span>
+                                Real Product Development
+                            </span>
+                        </div>
+
+
+                        <!-- Feature 5 -->
+
+                        <div class="comparison-row">
+                            <span>
+                                System Design & DSA
+                            </span>
+                        </div>
+
+
+                        <!-- Feature 6 -->
+
+                        <div class="comparison-row">
+                            <span>
+                                Real Scalable Products
+                            </span>
+                        </div>
+
+
+                        <!-- Feature 7 -->
+
+                        <div class="comparison-row">
+                            <span>
+                                Personalised Portfolio Website
+                            </span>
+                        </div>
+
+
+                        <!-- Feature 8 -->
+
+                        <div class="comparison-row">
+                            <span>
+                                AI-Powered Applications
+                            </span>
+                        </div>
+
+
+                        <!-- Feature 9 -->
+
+                        <div class="comparison-row">
+                            <span>
+                                Hinglish Language Teaching
+                            </span>
+                        </div>
+
+
+                        <!-- Feature 10 -->
+
+                        <div class="comparison-row">
+                            <span>
+                                Interview Prep & Career Support
+                            </span>
+                        </div>
+
+                    </div>
+
+
+                    <!-- =================================
+                     COLUMN 2
+                     CREATOR COURSES
+                ================================== -->
+
+                    <div class="comparison-column">
+
+
+                        <div class="comparison-header">
+
+                            <h4>
+                                Creator Courses
+                            </h4>
+
+                        </div>
+
+
+                        <!-- Row 1 -->
+
+                        <div class="comparison-row">
+                            <span class="cross-icon">×</span>
+                        </div>
+
+
+                        <!-- Row 2 -->
+
+                        <div class="comparison-row">
+                            <span class="cross-icon">×</span>
+                        </div>
+
+
+                        <!-- Row 3 -->
+
+                        <div class="comparison-row">
+                            <span class="check-icon">✓</span>
+                        </div>
+
+
+                        <!-- Row 4 -->
+
+                        <div class="comparison-row">
+                            <span class="check-icon">✓</span>
+                        </div>
+
+
+                        <!-- Row 5 -->
+
+                        <div class="comparison-row">
+                            <span class="cross-icon">×</span>
+                        </div>
+
+
+                        <!-- Row 6 -->
+
+                        <div class="comparison-row">
+                            <span class="cross-icon">×</span>
+                        </div>
+
+
+                        <!-- Row 7 -->
+
+                        <div class="comparison-row">
+                            <span class="cross-icon">×</span>
+                        </div>
+
+
+                        <!-- Row 8 -->
+
+                        <div class="comparison-row">
+                            <span class="cross-icon">×</span>
+                        </div>
+
+
+                        <!-- Row 9 -->
+
+                        <div class="comparison-row">
+                            <span class="check-icon">✓</span>
+                        </div>
+
+
+                        <!-- Row 10 -->
+
+                        <div class="comparison-row">
+                            <span class="cross-icon">×</span>
+                        </div>
+
+                    </div>
+
+
+                    <!-- =================================
+                     COLUMN 3
+                     WSCUBE TECH
+                ================================== -->
+
+                    <div class="comparison-column featured-column">
+
+
+                        <div class="comparison-header featured-header">
+
+                            <h4>
+                                WSCUBE TECH
+                            </h4>
+
+                        </div>
+
+
+                        <!-- Row 1 -->
+
+                        <div class="comparison-row">
+                            <span class="featured-check">✓</span>
+                        </div>
+
+
+                        <!-- Row 2 -->
+
+                        <div class="comparison-row">
+                            <span class="featured-check">✓</span>
+                        </div>
+
+
+                        <!-- Row 3 -->
+
+                        <div class="comparison-row">
+                            <span class="featured-check">✓</span>
+                        </div>
+
+
+                        <!-- Row 4 -->
+
+                        <div class="comparison-row">
+                            <span class="featured-check">✓</span>
+                        </div>
+
+
+                        <!-- Row 5 -->
+
+                        <div class="comparison-row">
+                            <span class="featured-check">✓</span>
+                        </div>
+
+
+                        <!-- Row 6 -->
+
+                        <div class="comparison-row">
+                            <span class="featured-check">✓</span>
+                        </div>
+
+
+                        <!-- Row 7 -->
+
+                        <div class="comparison-row">
+                            <span class="featured-check">✓</span>
+                        </div>
+
+
+                        <!-- Row 8 -->
+
+                        <div class="comparison-row">
+                            <span class="featured-check">✓</span>
+                        </div>
+
+
+                        <!-- Row 9 -->
+
+                        <div class="comparison-row">
+                            <span class="featured-check">✓</span>
+                        </div>
+
+
+                        <!-- Row 10 -->
+
+                        <div class="comparison-row">
+                            <span class="featured-check">✓</span>
+                        </div>
+
+                    </div>
+
+
+                    <!-- =================================
+                     COLUMN 4
+                     OTHER BOOTCAMPS
+                ================================== -->
+
+                    <div class="comparison-column comparison-column-4">
+
+
+                        <div class="comparison-header">
+
+                            <h4>
+                                Other Bootcamps
+                            </h4>
+
+                        </div>
+
+
+                        <!-- Row 1 -->
+
+                        <div class="comparison-row">
+                            <span class="cross-icon">×</span>
+                        </div>
+
+
+                        <!-- Row 2 -->
+
+                        <div class="comparison-row">
+                            <span class="check-icon">✓</span>
+                        </div>
+
+
+                        <!-- Row 3 -->
+
+                        <div class="comparison-row">
+                            <span class="cross-icon">×</span>
+                        </div>
+
+
+                        <!-- Row 4 -->
+
+                        <div class="comparison-row">
+                            <span class="cross-icon">×</span>
+                        </div>
+
+
+                        <!-- Row 5 -->
+
+                        <div class="comparison-row">
+                            <span class="check-icon">✓</span>
+                        </div>
+
+
+                        <!-- Row 6 -->
+
+                        <div class="comparison-row">
+                            <span class="cross-icon">×</span>
+                        </div>
+
+
+                        <!-- Row 7 -->
+
+                        <div class="comparison-row">
+                            <span class="cross-icon">×</span>
+                        </div>
+
+
+                        <!-- Row 8 -->
+
+                        <div class="comparison-row">
+                            <span class="cross-icon">×</span>
+                        </div>
+
+
+                        <!-- Row 9 -->
+
+                        <div class="comparison-row">
+                            <span class="cross-icon">×</span>
+                        </div>
+
+
+                        <!-- Row 10 -->
+
+                        <div class="comparison-row">
+                            <span class="cross-icon">×</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Industry Tools Section -->
+        <section class="tools-section py-5">
+
+            <div class="container text-center py-4">
+
+                <!-- Section Title -->
+                <h2 class="fw-bold text-white fs-1 mb-2">
+                    Industry Tools You'll Master
+                </h2>
+
+                <p class="text-white-50 mb-4 fs-6">
+                    Tools and Technologies
+                </p>
+
+
+                <!-- Category Filter Pills -->
+                <div class="d-flex flex-wrap justify-content-center gap-2 mb-5" id="toolsTabs" role="tablist">
+
+                    <button class="btn nav-pill active-pill" id="frontend-tab" data-bs-toggle="pill"
+                        data-bs-target="#frontend" type="button" role="tab" aria-controls="frontend"
+                        aria-selected="true">
+                        Frontend
+                    </button>
+
+
+                    <button class="btn nav-pill" id="backend-tab" data-bs-toggle="pill" data-bs-target="#backend"
+                        type="button" role="tab" aria-controls="backend" aria-selected="false">
+                        Backend
+                    </button>
+
+
+                    <button class="btn nav-pill" id="ai-tab" data-bs-toggle="pill" data-bs-target="#ai" type="button"
+                        role="tab" aria-controls="ai" aria-selected="false">
+                        AI Engineering
+                    </button>
+
+
+                    <button class="btn nav-pill" id="infrastructure-tab" data-bs-toggle="pill"
+                        data-bs-target="#infrastructure" type="button" role="tab" aria-controls="infrastructure"
+                        aria-selected="false">
+                        Infrastructure
+                    </button>
+
+
+                    <button class="btn nav-pill" id="engineering-tab" data-bs-toggle="pill"
+                        data-bs-target="#engineering" type="button" role="tab" aria-controls="engineering"
+                        aria-selected="false">
+                        Engineering Skills
+                    </button>
+
+                </div>
+
+
+                <!-- =====================================
+             TOOLS CONTENT
+        ====================================== -->
+
+                <div class="tab-content" id="toolsTabsContent">
+
+
+                    <!-- ================= FRONTEND ================= -->
+
+                    <div class="tab-pane fade show active" id="frontend" role="tabpanel" aria-labelledby="frontend-tab">
+
+                        <div class="row g-4 justify-content-center mb-5">
+
+                            <!-- React -->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+
+                                <div class="tool-card d-flex flex-column
+                                    align-items-center justify-content-center p-4">
+
+                                    <div class="icon-box mb-3">
+
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                                            alt="React" class="img-fluid">
+
+                                    </div>
+
+                                    <h4 class="card-title fw-bold text-dark m-0">
+                                        React
+                                    </h4>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Next.js -->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+
+                                <div class="tool-card d-flex flex-column
+                                    align-items-center justify-content-center p-4">
+
+                                    <div class="icon-box mb-3">
+
+                                        <img src="https://cdn.worldvectorlogo.com/logos/next-js.svg" alt="Next.js"
+                                            class="img-fluid">
+
+                                    </div>
+
+                                    <h4 class="card-title fw-bold text-dark m-0">
+                                        Next.js
+                                    </h4>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- TypeScript -->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+
+                                <div class="tool-card d-flex flex-column
+                                    align-items-center justify-content-center p-4">
+
+                                    <div class="icon-box mb-3">
+
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
+                                            alt="TypeScript" class="img-fluid">
+
+                                    </div>
+
+                                    <h4 class="card-title fw-bold text-dark m-0">
+                                        TypeScript
+                                    </h4>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Tailwind -->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+
+                                <div class="tool-card d-flex flex-column
+                                    align-items-center justify-content-center p-4">
+
+                                    <div class="icon-box mb-3">
+
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                                            alt="Tailwind CSS" class="img-fluid">
+
+                                    </div>
+
+                                    <h4 class="card-title fw-bold text-dark m-0">
+                                        Tailwind CSS
+                                    </h4>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ================= BACKEND ================= -->
+
+                    <div class="tab-pane fade" id="backend" role="tabpanel" aria-labelledby="backend-tab">
+
+                        <div class="row g-4 justify-content-center mb-5">
+
+                            <!-- Node.js -->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+
+                                <div class="tool-card d-flex flex-column
+                                    align-items-center justify-content-center p-4">
+
+                                    <div class="icon-box mb-3">
+
+                                        <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" alt="Node.js"
+                                            class="img-fluid">
+
+                                    </div>
+
+                                    <h4 class="card-title fw-bold text-dark m-0">
+                                        Node.js
+                                    </h4>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- MongoDB -->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+
+                                <div class="tool-card d-flex flex-column
+                                    align-items-center justify-content-center p-4">
+
+                                    <div class="icon-box mb-3">
+
+                                        <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
+                                            alt="MongoDB" class="img-fluid">
+
+                                    </div>
+
+                                    <h4 class="card-title fw-bold text-dark m-0">
+                                        MongoDB
+                                    </h4>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ================= AI ENGINEERING ================= -->
+
+                    <div class="tab-pane fade" id="ai" role="tabpanel" aria-labelledby="ai-tab">
+
+                        <div class="row g-4 justify-content-center mb-5">
+
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+
+                                <div class="tool-card d-flex flex-column
+                                    align-items-center justify-content-center p-4">
+
+                                    <div class="icon-box mb-3">
+
+                                        <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="Python"
+                                            class="img-fluid">
+
+                                    </div>
+
+                                    <h4 class="card-title fw-bold text-dark m-0">
+                                        Python
+                                    </h4>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ================= INFRASTRUCTURE ================= -->
+
+                    <div class="tab-pane fade" id="infrastructure" role="tabpanel" aria-labelledby="infrastructure-tab">
+
+                        <div class="row g-4 justify-content-center mb-5">
+
+                            <!-- Docker -->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+
+                                <div class="tool-card d-flex flex-column
+                                    align-items-center justify-content-center p-4">
+
+                                    <div class="icon-box mb-3">
+
+                                        <img src="https://cdn.worldvectorlogo.com/logos/docker-4.svg" alt="Docker"
+                                            class="img-fluid">
+
+                                    </div>
+
+                                    <h4 class="card-title fw-bold text-dark m-0">
+                                        Docker
+                                    </h4>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Git -->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+
+                                <div class="tool-card d-flex flex-column
+                                    align-items-center justify-content-center p-4">
+
+                                    <div class="icon-box mb-3">
+
+                                        <img src="https://cdn.worldvectorlogo.com/logos/git-icon.svg" alt="Git"
+                                            class="img-fluid">
+
+                                    </div>
+
+                                    <h4 class="card-title fw-bold text-dark m-0">
+                                        Git
+                                    </h4>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ================= ENGINEERING SKILLS ================= -->
+
+                    <div class="tab-pane fade" id="engineering" role="tabpanel" aria-labelledby="engineering-tab">
+
+                        <div class="row g-4 justify-content-center mb-5">
+
+                            <!-- DSA -->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+
+                                <div class="tool-card d-flex flex-column
+                                    align-items-center justify-content-center p-4">
+
+                                    <div class="icon-box mb-3">
+
+                                        <h2 class="fw-bold">
+                                            DSA
+                                        </h2>
+
+                                    </div>
+
+                                    <h4 class="card-title fw-bold text-dark m-0">
+                                        Data Structures
+                                    </h4>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- OOP -->
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+
+                                <div class="tool-card d-flex flex-column
+                                    align-items-center justify-content-center p-4">
+
+                                    <div class="icon-box mb-3">
+
+                                        <h2 class="fw-bold">
+                                            OOP
+                                        </h2>
+
+                                    </div>
+
+                                    <h4 class="card-title fw-bold text-dark m-0">
+                                        OOP
+                                    </h4>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Apply Button -->
+
+                <div>
+                    <a href="#" class="btn btn-apply px-4 py-2 fw-bold">
+                        Apply Now
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Next Cohort Start Soon -->
+        <section class="cohort-section py-2">
+            <div class="container py-2">
+
+                <!-- Section Title & Subtitle -->
+                <div class="text-center text-md-start mb-4 ps-md-2">
+                    <h2 class="fw-bold text-white display-6 mb-2">Next Cohort Start Soon</h2>
+                    <p class="text-white-50 mb-0">Limited seats available - Reserve your spot today</p>
+                </div>
+
+                <!-- Cohort Cards Container -->
+                <div class="d-flex flex-column gap-3 mb-5">
+
+                    <!-- Cohort Row 1 -->
+                    <div class="cohort-card d-flex flex-column flex-md-row overflow-hidden">
+                        <!-- Date Box -->
+                        <div class="date-box text-center text-white p-3 d-flex flex-column justify-content-center">
+                            <span class="small text-white-50">Cohort started on</span>
+                            <strong class="fs-5">10th Sep, 26</strong>
+                        </div>
+
+                        <!-- Details Row -->
+                        <div
+                            class="details-box text-white p-3 flex-grow-1 d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
+                            <div class="d-flex flex-wrap align-items-center gap-2">
+                                <span class="d-flex align-items-center gap-1 fw-medium">
+                                    <i class="bi bi-clock"></i> 7:30 PM to 9:30 PM
+                                </span>
+                                <span class="badge badge-pill text-dark">Online</span>
+                                <span class="badge badge-pill text-dark">Weekday (MWF)</span>
+                            </div>
+
+                            <div
+                                class="d-flex align-items-center justify-content-between justify-md-end gap-3 ms-md-auto">
+                                <span class="small text-white-50 d-flex align-items-center gap-1">
+                                    <i class="bi bi-lightning-charge"></i> Filling Fast • 15 seats left
+                                </span>
+                                <a href="#"
+                                    class="btn btn-light btn-sm fw-bold px-3 py-2 rounded-2 text-primary-dark">Apply
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cohort Row 2 -->
+                    <div class="cohort-card d-flex flex-column flex-md-row overflow-hidden">
+                        <!-- Date Box -->
+                        <div class="date-box text-center text-white p-3 d-flex flex-column justify-content-center">
+                            <span class="small text-white-50">Cohort start on</span>
+                            <strong class="fs-5">24th Sep, 26</strong>
+                        </div>
+
+                        <!-- Details Row -->
+                        <div
+                            class="details-box text-white p-3 flex-grow-1 d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
+                            <div class="d-flex flex-wrap align-items-center gap-2">
+                                <span class="d-flex align-items-center gap-1 fw-medium">
+                                    <i class="bi bi-clock"></i> 7:30 PM to 9:30 PM
+                                </span>
+                                <span class="badge badge-pill text-dark">Online</span>
+                                <span class="badge badge-pill text-dark">Weekday (MWF)</span>
+                            </div>
+
+                            <div
+                                class="d-flex align-items-center justify-content-between justify-md-end gap-3 ms-md-auto">
+                                <span class="small text-white-50 d-flex align-items-center gap-1">
+                                    <i class="bi bi-lightning-charge"></i> Filling Fast • 20 seats left
+                                </span>
+                                <a href="#"
+                                    class="btn btn-light btn-sm fw-bold px-3 py-2 rounded-2 text-primary-dark">Apply
+                                    Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="d-flex flex-wrap justify-content-center gap-3">
+                    <a href="#" class="btn btn-outline-custom d-flex align-items-center gap-2 px-4 py-2 fw-semibold">
+                        <i class="bi bi-telephone-outbound"></i> Request a Callback
+                    </a>
+                    <a href="#" class="btn btn-primary-custom px-4 py-2 fw-bold">
+                        Apply Now - Secure Your Seat
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <!-- Real Projects Section -->
+        <section
+            style="background-color: #010078; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;"
+            class="py-5">
+            <div class="container-fluid px-4 py-4">
+
+                <!-- Top Badge & Header -->
+                <div class="text-center mb-5">
+                    <span
+                        class="badge rounded-pill bg-primary bg-opacity-50 text-white border border-primary px-3 py-2 fw-normal mb-3"
+                        style="font-size: 0.85rem;">
+                        #Learn-by-doing Projects
+                    </span>
+                    <h2 class="fw-bold text-white fs-1 mb-3">Real Projects. Real Brands. Real Impact</h2>
+                    <p class="text-white-50 mx-auto" style="max-width: 650px; font-size: 0.95rem;">
+                        Work on 20+ industry projects from leading companies. Build a portfolio that stands out and
+                        demonstrates your practical expertise to employers.
+                    </p>
+                </div>
+
+                <!-- Cards Row / Horizontal Scroll Container -->
+                <div class="row g-4 flex-nowrap overflow-auto pb-3">
+
+                    <!-- Card 1: DevTools -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 flex-shrink-0">
+                        <div class="card h-100 border-0 rounded-4 overflow-hidden shadow-sm">
+                            <div class="position-relative bg-light" style="height: 200px;">
+                                <span
+                                    class="position-absolute top-0 start-0 m-3 bg-white text-dark badge font-monospace fw-normal shadow-sm px-2 py-1">DevTools</span>
+                                <img src="images/project-16-new.webp" class="w-100 h-100 object-fit-cover"
+                                    alt="GitView Preview">
+                            </div>
+                            <div class="card-body bg-white p-4">
+                                <h5 class="card-title fw-bold text-dark fs-6 lh-base mb-2">
+                                    GitView | Explore GitHub users, repositories, and save favorites
+                                </h5>
+                                <p class="card-text text-muted small mb-0">
+                                    Work with external developer data and manage user-based interactions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: EntertainmentTech -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 flex-shrink-0">
+                        <div class="card h-100 border-0 rounded-4 overflow-hidden shadow-sm">
+                            <div class="position-relative bg-light" style="height: 200px;">
+                                <span
+                                    class="position-absolute top-0 start-0 m-3 bg-white text-dark badge font-monospace fw-normal shadow-sm px-2 py-1">EntertainmentTech</span>
+                                <img src="images/project-20-new.webp" class="w-100 h-100 object-fit-cover"
+                                    alt="TrackVerse Preview">
+                            </div>
+                            <div class="card-body bg-white p-4">
+                                <h5 class="card-title fw-bold text-dark fs-6 lh-base mb-2">
+                                    TrackVerse | Build a complete movie and book tracking platform with lists and
+                                    ratings
+                                </h5>
+                                <p class="card-text text-muted small mb-0">
+                                    Build a complete multi-page application with personalization features.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: DevTools (NoteStack) -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 flex-shrink-0">
+                        <div class="card h-100 border-0 rounded-4 overflow-hidden shadow-sm">
+                            <div class="position-relative bg-light" style="height: 200px;">
+                                <span
+                                    class="position-absolute top-0 start-0 m-3 bg-white text-dark badge font-monospace fw-normal shadow-sm px-2 py-1">DevTools</span>
+                                <img src="images/project-15-new.webp" class="w-100 h-100 object-fit-cover"
+                                    alt="NoteStack API Preview">
+                            </div>
+                            <div class="card-body bg-white p-4">
+                                <h5 class="card-title fw-bold text-dark fs-6 lh-base mb-2">
+                                    NoteStack API | Create and deploy a backend with full CRUD functionality
+                                </h5>
+                                <p class="card-text text-muted small mb-0">
+                                    Understand backend fundamentals with data handling and API creation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: ProductivityTech -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 flex-shrink-0">
+                        <div class="card h-100 border-0 rounded-4 overflow-hidden shadow-sm">
+                            <div class="position-relative bg-light" style="height: 200px;">
+                                <span
+                                    class="position-absolute top-0 start-0 m-3 bg-white text-dark badge font-monospace fw-normal shadow-sm px-2 py-1">ProductivityTech</span>
+                                <img src="images/project-4-new.webp" class="w-100 h-100 object-fit-cover"
+                                    alt="MERNNotes Pro Preview">
+                            </div>
+                            <div class="card-body bg-white p-4">
+                                <h5 class="card-title fw-bold text-dark fs-6 lh-base mb-2">
+                                    MERNNotes Pro | Connect MongoDB and React to build a full-stack notes app
+                                </h5>
+                                <p class="card-text text-muted small mb-0">
+                                    Connect frontend and backend to create a fully functional application.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Certification Section -->
+        <section class="certification-section py-5">
+            <div class="container py-4">
+                <div class="row align-items-center g-5">
+
+                    <!-- Left Column: Certificate Preview Card -->
+                    <div class="col-12 col-lg-5 text-center">
+                        <div class="certificate-wrapper bg-white p-3 p-md-4 rounded-4 shadow-lg mx-auto">
+                            <!-- Mock Certificate Layout -->
+                            <div
+                                class="certificate-inner border border-2 border-info-subtle p-4 d-flex flex-column justify-content-between text-dark">
+
+                                <!-- Header -->
+                                <div class="d-flex justify-content-between align-items-start mb-4">
+                                    <div class="text-start">
+                                        <span class="fw-bold text-primary small d-block">WsCUBE TECH</span>
+                                        <span class="text-muted border-top border-primary border-2 d-inline-block pt-1"
+                                            style="font-size: 0.6rem;">Upskilling Bharat</span>
+                                    </div>
+                                    <div class="text-end text-muted" style="font-size: 0.6rem;">
+                                        Registration No: WS/2022/T04579<br>
+                                        Issued on: 22 Nov 2022
+                                    </div>
+                                </div>
+
+                                <!-- Title -->
+                                <div class="my-2">
+                                    <h5 class="fw-bold text-uppercase tracking-wider mb-1" style="letter-spacing: 2px;">
+                                        Certificate</h5>
+                                    <p class="text-muted text-uppercase small"
+                                        style="font-size: 0.7rem; letter-spacing: 1px;">Of Completion</p>
+                                </div>
+
+                                <!-- Content -->
+                                <div class="my-3">
+                                    <p class="text-muted mb-2" style="font-size: 0.65rem;">THIS IS TO CERTIFY</p>
+                                    <h4 class="fw-bold text-info mb-2">***Learner Name***</h4>
+                                    <p class="text-muted mb-1" style="font-size: 0.7rem;">Has Successfully Completed</p>
+                                    <p class="fw-semibold text-dark mb-1" style="font-size: 0.75rem;">"****Duration****"
+                                        of</p>
+                                    <h6 class="fw-bold text-info mb-3">***Program Name***</h6>
+                                    <p class="text-muted fst-italic mx-auto"
+                                        style="font-size: 0.65rem; max-width: 80%;">
+                                        We found him/her pretty active and confident in assigned projects.
+                                    </p>
+                                </div>
+
+                                <!-- Footer -->
+                                <div class="d-flex justify-content-between align-items-end mt-4 pt-2">
+                                    <div class="rounded-circle border border-info p-2"
+                                        style="width: 45px; height: 45px;">
+                                        <span class="fw-bold text-info" style="font-size: 0.5rem;">WsCUBE TECH</span>
+                                    </div>
+                                    <div class="text-end">
+                                        <span class="font-italic text-muted d-block"
+                                            style="font-family: 'Brush Script MT', cursive; font-size: 1.1rem;">Kushagra</span>
+                                        <span class="d-block fw-bold text-dark" style="font-size: 0.65rem;">Kushagra
+                                            Bhatia</span>
+                                        <span class="text-muted d-block" style="font-size: 0.55rem;">Founder, WsCube
+                                            Tech</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Details & Checklist -->
+                    <div class="col-12 col-lg-7 text-white">
+                        <h2 class="fw-bold display-6 mb-3">Get Certified & Stand Out</h2>
+                        <p class="text-white-50 mb-4 fs-6">
+                            Upon successful completion, receive an industry-recognized certification that validates your
+                            expertise and opens doors to exciting career opportunities.
+                        </p>
+
+                        <!-- List Items -->
+                        <ul class="list-unstyled d-flex flex-column gap-3 mb-0">
+                            <li class="d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle fs-4 text-white"></i>
+                                <span class="fs-6 fw-medium">Industry-recognized certification from WsCube Tech</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle fs-4 text-white"></i>
+                                <span class="fs-6 fw-medium">Validates your expertise</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle fs-4 text-white"></i>
+                                <span class="fs-6 fw-medium">Boost your resume and LinkedIn profile</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle fs-4 text-white"></i>
+                                <span class="fs-6 fw-medium">Showcase skills to potential employers</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle fs-4 text-white"></i>
+                                <span class="fs-6 fw-medium">Lifetime validity with verification code</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3">
+                                <i class="bi bi-check-circle fs-4 text-white"></i>
+                                <span class="fs-6 fw-medium">Shareable digital badge for social media</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Last Mile Preparation Section -->
+        <section class="last-mile-section py-5 text-white">
+            <div class="container py-4">
+
+                <!-- Top Pill & Title -->
+                <div class="text-center mb-5">
+                    <span class="badge rounded-pill px-3 py-2 fw-normal mb-3"
+                        style="background-color: #3b30e3; border: 1px solid rgba(255, 255, 255, 0.4); font-size: 0.85rem;">
+                        We Don't Stop Until You Succeed
+                    </span>
+                    <h2 class="fw-bold fs-1 mb-2">Last Mile 3-Stage Exclusive Preparation</h2>
+                    <p class="text-white-50 fs-6">Your final sprint to becoming a high-performing Developer</p>
+                </div>
+
+                <!-- 3-Stage Container Grid -->
+                <div class="row g-4 mb-5 align-items-stretch">
+
+                    <!-- Left Sidebar: Stage Navigation Tabs -->
+                    <div class="col-12 col-lg-4">
+                        <div class="nav flex-column nav-pills last-mile-nav gap-3" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+
+                            <!-- Tab 1 -->
+                            <button class="nav-link active d-flex justify-content-between align-items-center"
+                                id="v-pills-stage1-tab" data-bs-toggle="pill" data-bs-target="#v-pills-stage1"
+                                type="button" role="tab" aria-controls="v-pills-stage1" aria-selected="true">
+                                <div>
+                                    <h5 class="fw-bold mb-1 fs-6">Gear Up</h5>
+                                    <p class="small mb-0 subtitle" style="font-size: 0.8rem;">Build your personal brand
+                                        and professional identity.</p>
+                                </div>
+                                <span class="fw-bold display-6 opacity-25 ms-2">1</span>
+                            </button>
+
+                            <!-- Tab 2 -->
+                            <button class="nav-link d-flex justify-content-between align-items-center"
+                                id="v-pills-stage2-tab" data-bs-toggle="pill" data-bs-target="#v-pills-stage2"
+                                type="button" role="tab" aria-controls="v-pills-stage2" aria-selected="false">
+                                <div>
+                                    <h5 class="fw-bold mb-1 fs-6">Pitch Perfect</h5>
+                                    <p class="small mb-0 subtitle" style="font-size: 0.8rem;">Present ideas, tell
+                                        stories, and ace interviews.</p>
+                                </div>
+                                <span class="fw-bold display-6 opacity-25 ms-2">2</span>
+                            </button>
+
+                            <!-- Tab 3 -->
+                            <button class="nav-link d-flex justify-content-between align-items-center"
+                                id="v-pills-stage3-tab" data-bs-toggle="pill" data-bs-target="#v-pills-stage3"
+                                type="button" role="tab" aria-controls="v-pills-stage3" aria-selected="false">
+                                <div>
+                                    <h5 class="fw-bold mb-1 fs-6">Tech Skill Setup</h5>
+                                    <p class="small mb-0 subtitle" style="font-size: 0.8rem;">Master the practical side
+                                        of developer hiring.</p>
+                                </div>
+                                <span class="fw-bold display-6 opacity-25 ms-2">3</span>
+                            </button>
+
+                        </div>
+                    </div>
+
+
+
+                    <style>
+                        .last-mile-section {
+                            background-color: #010078;
+                            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                        }
+
+                        /* Custom Styling for Nav Pills */
+                        .last-mile-nav .nav-link {
+                            background-color: rgba(255, 255, 255, 0.08);
+                            border: 1px solid rgba(255, 255, 255, 0.15);
+                            color: #ffffff;
+                            border-radius: 1rem;
+                            padding: 1rem;
+                            text-align: left;
+                            transition: all 0.2s ease-in-out;
+                        }
+
+                        .last-mile-nav .nav-link .subtitle {
+                            color: rgba(255, 255, 255, 0.7);
+                        }
+
+                        /* Active Nav Tab Style */
+                        .last-mile-nav .nav-link.active {
+                            background-color: #e5ecff !important;
+                            color: #000080 !important;
+                            border-color: #e5ecff !important;
+                        }
+
+                        .last-mile-nav .nav-link.active .subtitle {
+                            color: rgba(0, 0, 128, 0.75) !important;
+                        }
+
+                        /* Watermark Styling */
+                        .stage-watermark {
+                            font-size: 5rem;
+                            font-weight: 800;
+                            color: rgba(0, 0, 128, 0.08);
+                            line-height: 1;
+                        }
+                    </style>
+
+                    <!-- Right Box: Stage Content Details -->
+                    <div class="col-12 col-lg-8">
+                        <div class="tab-content h-100" id="v-pills-tabContent">
+
+                            <!-- Content Panel 1 -->
+                            <div class="tab-pane fade show active h-100" id="v-pills-stage1" role="tabpanel"
+                                aria-labelledby="v-pills-stage1-tab" tabindex="0">
+                                <div class="h-100 rounded-4 p-4 p-md-5 position-relative overflow-hidden d-flex flex-column justify-content-between"
+                                    style="background-color: #e5ecff; color: #000080;">
+                                    <div class="row g-4 position-relative z-1 mb-4">
+                                        <div class="col-12 col-sm-6">
+                                            <h4 class="fw-bold fs-5 mb-2">Resume</h4>
+                                            <p class="text-secondary small mb-0">Tailored for developer & product roles.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <h4 class="fw-bold fs-5 mb-2">Portfolio</h4>
+                                            <p class="text-secondary small mb-0">Host your best projects online.</p>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <h4 class="fw-bold fs-5 mb-2">LinkedIn</h4>
+                                            <p class="text-secondary small mb-0">Build a developer brand that recruiters
+                                                notice.</p>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <h4 class="fw-bold fs-5 mb-2">GitHub Profile</h4>
+                                            <p class="text-secondary small mb-0">Showcase clean code and real commits.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="position-absolute bottom-0 end-0 pe-4 pb-2 user-select-none pointer-events-none stage-watermark">
+                                        Gear Up
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Content Panel 2 -->
+                            <div class="tab-pane fade h-100" id="v-pills-stage2" role="tabpanel"
+                                aria-labelledby="v-pills-stage2-tab" tabindex="0">
+                                <div class="h-100 rounded-4 p-4 p-md-5 position-relative overflow-hidden d-flex flex-column justify-content-between"
+                                    style="background-color: #e5ecff; color: #000080;">
+                                    <div class="row g-4 position-relative z-1 mb-4">
+                                        <div class="col-12 col-sm-6">
+                                            <h4 class="fw-bold fs-5 mb-2">Elevator Pitch</h4>
+                                            <p class="text-secondary small mb-0">Craft compelling professional
+                                                introductions.</p>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <h4 class="fw-bold fs-5 mb-2">Behavioral Mock</h4>
+                                            <p class="text-secondary small mb-0">Practice HR-round scenarios with
+                                                experts.</p>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <h4 class="fw-bold fs-5 mb-2">Communication</h4>
+                                            <p class="text-secondary small mb-0">Improve confidence for client & team
+                                                interactions.</p>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <h4 class="fw-bold fs-5 mb-2">Salary Negotiation</h4>
+                                            <p class="text-secondary small mb-0">Learn strategy to secure top pay
+                                                packages.</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="position-absolute bottom-0 end-0 pe-4 pb-2 user-select-none pointer-events-none stage-watermark">
+                                        Pitch Perfect
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Content Panel 3 -->
+                            <div class="tab-pane fade h-100" id="v-pills-stage3" role="tabpanel"
+                                aria-labelledby="v-pills-stage3-tab" tabindex="0">
+                                <div class="h-100 rounded-4 p-4 p-md-5 position-relative overflow-hidden d-flex flex-column justify-content-between"
+                                    style="background-color: #e5ecff; color: #000080;">
+                                    <div class="row g-4 position-relative z-1 mb-4">
+                                        <div class="col-12 col-sm-6">
+                                            <h4 class="fw-bold fs-5 mb-2">DSA & System Design</h4>
+                                            <p class="text-secondary small mb-0">Master algorithms and scalable
+                                                architecture.</p>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <h4 class="fw-bold fs-5 mb-2">Tech Mock Interviews</h4>
+                                            <p class="text-secondary small mb-0">1-on-1 sessions with senior developers.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <h4 class="fw-bold fs-5 mb-2">Live Coding Prep</h4>
+                                            <p class="text-secondary small mb-0">Solve timed screening challenges
+                                                smoothly.</p>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <h4 class="fw-bold fs-5 mb-2">Domain Specialization</h4>
+                                            <p class="text-secondary small mb-0">Deep dive into Full Stack & AI
+                                                engineering.</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="position-absolute bottom-0 end-0 pe-4 pb-2 user-select-none pointer-events-none stage-watermark">
+                                        Tech Skill
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Hiring Partners Marquee Banner -->
+                <div class="text-center mt-5">
+                    <h3 class="fw-bold fs-4 mb-2">100+ Hiring Partners</h3>
+                    <p class="text-white-50 small mb-4 mx-auto" style="max-width: 550px;">
+                        Perform well and score the cut-off percentage to get access to job opportunities at our partner
+                        companies:
+                    </p>
+
+                    <!-- Infinite Scroll Logo Slider Container -->
+                    <div class="w-100 overflow-hidden bg-white py-3 rounded-3 shadow-sm">
+                        <div class="d-flex align-items-center justify-content-around gap-4 flex-wrap px-3">
+                            <span class="fw-bold fs-5 text-dark">Meta</span>
+                            <span class="fw-bold fs-5 text-dark">Expedia</span>
+                            <span class="fw-bold fs-5 text-dark">lenskart</span>
+                            <span class="fw-bold fs-5 text-dark">OLA ELECTRIC</span>
+                            <span class="fw-bold fs-5 text-dark">Walmart</span>
+                            <span class="fw-bold fs-5 text-dark">duolingo</span>
+                            <span class="fw-bold fs-5 text-dark">airbnb</span>
+                            <span class="fw-bold fs-5 text-dark">Adobe</span>
+                            <span class="fw-bold fs-5 text-dark">mamaearth</span>
+                            <span class="fw-bold fs-5 text-dark">accenture</span>
+                            <span class="fw-bold fs-5 text-dark">Google</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+        <!-- Mentors Section -->
+        <section class="mentors-section py-5">
+            <div class="container py-4">
+
+                <!-- Section Header -->
+                <div class="text-center text-white mb-5">
+                    <h2 class="fw-bold fs-1 mb-2">Meet Your Mentors</h2>
+                    <p class="text-white-50 small mb-0">Take a closer look at Mentors who've been there and done that!
+                    </p>
+                </div>
+
+                <!-- Mentors Grid -->
+                <div class="row g-4 justify-content-center">
+
+                    <!-- Mentor 1 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="mentor-card bg-white text-center rounded-4 overflow-hidden h-100 shadow-sm">
+                            <div class="mentor-img-box">
+                                <img src="https://via.placeholder.com/300x260/e2e8f0/000000?text=Kushagra+Bhatia"
+                                    alt="Kushagra Bhatia" class="img-fluid w-100">
+                            </div>
+                            <div class="p-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h5 class="fw-bold text-dark fs-6 mb-1">Kushagra Bhatia</h5>
+                                    <p class="text-muted small mb-3">Founder</p>
+                                </div>
+                                <div class="brand-logo text-center pt-2">
+                                    <span class="text-info fw-bold small d-block" style="font-size: 0.75rem;">WsCUBE
+                                        TECH<sup>®</sup></span>
+                                    <span class="text-muted d-block" style="font-size: 0.55rem;">Upskilling
+                                        Bharat</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mentor 2 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="mentor-card bg-white text-center rounded-4 overflow-hidden h-100 shadow-sm">
+                            <div class="mentor-img-box">
+                                <img src="https://via.placeholder.com/300x260/e2e8f0/000000?text=Pradeep+Rai"
+                                    alt="Pradeep Rai" class="img-fluid w-100">
+                            </div>
+                            <div class="p-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h5 class="fw-bold text-dark fs-6 mb-1">Pradeep Rai</h5>
+                                    <p class="text-muted small mb-3">Full Stack Lead</p>
+                                </div>
+                                <div class="brand-logo text-center pt-2">
+                                    <span class="text-info fw-bold small d-block" style="font-size: 0.75rem;">WsCUBE
+                                        TECH<sup>®</sup></span>
+                                    <span class="text-muted d-block" style="font-size: 0.55rem;">Upskilling
+                                        Bharat</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mentor 3 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="mentor-card bg-white text-center rounded-4 overflow-hidden h-100 shadow-sm">
+                            <div class="mentor-img-box">
+                                <img src="https://via.placeholder.com/300x260/e2e8f0/000000?text=Bhagirath+Giri"
+                                    alt="Bhagirath Giri" class="img-fluid w-100">
+                            </div>
+                            <div class="p-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h5 class="fw-bold text-dark fs-6 mb-1">Bhagirath Giri</h5>
+                                    <p class="text-muted small mb-3">Tech Lead</p>
+                                </div>
+                                <div class="brand-logo text-center pt-2">
+                                    <span class="text-info fw-bold small d-block" style="font-size: 0.75rem;">WsCUBE
+                                        TECH<sup>®</sup></span>
+                                    <span class="text-muted d-block" style="font-size: 0.55rem;">Upskilling
+                                        Bharat</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mentor 4 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="mentor-card bg-white text-center rounded-4 overflow-hidden h-100 shadow-sm">
+                            <div class="mentor-img-box">
+                                <img src="https://via.placeholder.com/300x260/e2e8f0/000000?text=Sandeep+Bhati"
+                                    alt="Sandeep Bhati" class="img-fluid w-100">
+                            </div>
+                            <div class="p-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h5 class="fw-bold text-dark fs-6 mb-1">Sandeep Bhati</h5>
+                                    <p class="text-muted small mb-3">Sr. Web Trainer</p>
+                                </div>
+                                <div class="brand-logo text-center pt-2">
+                                    <span class="text-info fw-bold small d-block" style="font-size: 0.75rem;">WsCUBE
+                                        TECH<sup>®</sup></span>
+                                    <span class="text-muted d-block" style="font-size: 0.55rem;">Upskilling
+                                        Bharat</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mentor 5 (Centered Bottom Row) -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="mentor-card bg-white text-center rounded-4 overflow-hidden h-100 shadow-sm">
+                            <div class="mentor-img-box">
+                                <img src="https://via.placeholder.com/300x260/e2e8f0/000000?text=Rajveer+Singh"
+                                    alt="Rajveer Singh" class="img-fluid w-100">
+                            </div>
+                            <div class="p-3 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h5 class="fw-bold text-dark fs-6 mb-1">Rajveer Singh</h5>
+                                    <p class="text-muted small mb-3">Web Trainer</p>
+                                </div>
+                                <div class="brand-logo text-center pt-2">
+                                    <span class="text-info fw-bold small d-block" style="font-size: 0.75rem;">WsCUBE
+                                        TECH<sup>®</sup></span>
+                                    <span class="text-muted d-block" style="font-size: 0.55rem;">Upskilling
+                                        Bharat</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- Reviews Section -->
+        <section class="reviews-section py-5">
+            <div class="container py-4">
+
+                <!-- Section Header -->
+                <div class="text-center text-white mb-5">
+                    <h2 class="fw-bold fs-1 mb-2">Reviews of WsCube's Full Stack Developer Course</h2>
+                    <p class="text-white-50 small mb-0">Real Stories from Our Alumni</p>
+                </div>
+
+                <!-- Reviews Grid -->
+                <div class="row g-4 justify-content-center">
+
+                    <!-- Review Card 1 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="review-card bg-white p-4 rounded-4 shadow-sm h-100 d-flex flex-column">
+                            <div class="d-flex align-items-center gap-3 mb-3">
+                                <div
+                                    class="avatar-box rounded-circle bg-secondary-subtle d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-person-fill text-secondary fs-4"></i>
+                                </div>
+                                <h5 class="fw-bold text-dark fs-6 mb-0">Vijay Raj Singh</h5>
+                            </div>
+                            <p class="review-text text-muted mb-0">
+                                I needed to understand the technical side of my business. This training was the ideal
+                                choice. It helped me to build and manage my web projects and gave me the confidence to
+                                take my business to the next level. I'm now the tech-savvy entrepreneur I aspired to be.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review Card 2 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="review-card bg-white p-4 rounded-4 shadow-sm h-100 d-flex flex-column">
+                            <div class="d-flex align-items-center gap-3 mb-3">
+                                <div
+                                    class="avatar-box rounded-circle bg-secondary-subtle d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-person-fill text-secondary fs-4"></i>
+                                </div>
+                                <h5 class="fw-bold text-dark fs-6 mb-0">Jyotsana Jadoun</h5>
+                            </div>
+                            <p class="review-text text-muted mb-0">
+                                Changing careers was a big step, and I needed the right guidance. WsCube Tech provided
+                                that and more. It's more than just a course; it's a career transformation. The
+                                real-world projects, job placement assistance, and the welcoming community made my
+                                journey smooth and fulfilling.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review Card 3 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="review-card bg-white p-4 rounded-4 shadow-sm h-100 d-flex flex-column">
+                            <div class="d-flex align-items-center gap-3 mb-3">
+                                <div
+                                    class="avatar-box rounded-circle bg-secondary-subtle d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-person-fill text-secondary fs-4"></i>
+                                </div>
+                                <h5 class="fw-bold text-dark fs-6 mb-0">Ritesh Verma</h5>
+                            </div>
+                            <p class="review-text text-muted mb-0">
+                                I was a working professional looking for a career change, and the Full Stack Developer
+                                course was the perfect choice. The flexibility of the course allowed me to learn while
+                                still maintaining my job. The practical skills and mentorship I received have propelled
+                                me into a new career, and I couldn't be happier with the decision.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review Card 4 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="review-card bg-white p-4 rounded-4 shadow-sm h-100 d-flex flex-column">
+                            <div class="d-flex align-items-center gap-3 mb-3">
+                                <div
+                                    class="avatar-box rounded-circle bg-secondary-subtle d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-person-fill text-secondary fs-4"></i>
+                                </div>
+                                <h5 class="fw-bold text-dark fs-6 mb-0">Suresh Sharma</h5>
+                            </div>
+                            <p class="review-text text-muted mb-0">
+                                Coming from a non-tech background, I was initially confused whether to learn web
+                                development. But the online Full Stack Developer training at WsCube Tech removed all my
+                                confusion and doubts. Now, I'm a Full Stack Developer, and I've proven that anyone can
+                                transition into this exciting field.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review Card 5 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="review-card bg-white p-4 rounded-4 shadow-sm h-100 d-flex flex-column">
+                            <div class="d-flex align-items-center gap-3 mb-3">
+                                <div
+                                    class="avatar-box rounded-circle bg-secondary-subtle d-flex align-items-center justify-content-center">
+                                    <i class="bi bi-person-fill text-secondary fs-4"></i>
+                                </div>
+                                <h5 class="fw-bold text-dark fs-6 mb-0">Vikrant Singh</h5>
+                            </div>
+                            <p class="review-text text-muted mb-0">
+                                The full stack developer course by WsCube Tech has helped me get my first job. The full
+                                support and projects made all the difference. Today, I'm proud to say I've landed my
+                                dream job, and I couldn't have done it without this training.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Section 1: Fee Structure -->
+        <section class="fee-section py-5">
+            <div class="container py-4">
+
+                <!-- Heading -->
+                <div class="text-center text-white mb-5">
+                    <h2 class="fw-bold fs-1">Fee structure of this program</h2>
+                </div>
+
+                <!-- Pricing Card Container -->
+                <div class="d-flex justify-content-center">
+                    <div class="card pricing-card border-0 rounded-4 shadow-lg p-3 p-md-4 bg-white text-dark">
+
+                        <div class="card-body p-0">
+                            <!-- Course Title & Subtitle -->
+                            <h4 class="fw-bold fs-5 text-dark mb-1">Full Stack Development + AI Engineering</h4>
+                            <p class="text-muted small mb-4">Build, Deploy & Scale Full Stack + AI-Powered Products</p>
+
+                            <!-- Pricing Area -->
+                            <div class="mb-4">
+                                <span class="text-decoration-line-through text-muted small d-block">₹45,000/-</span>
+                                <div class="d-flex align-items-baseline gap-2">
+                                    <span class="display-6 fw-bold text-dark">₹34,999/-</span>
+                                    <span class="text-muted small">Inclusive of all taxes</span>
+                                </div>
+                            </div>
+
+                            <!-- Features List -->
+                            <ul class="list-unstyled d-flex flex-column gap-2 mb-4">
+                                <li class="d-flex align-items-center gap-2 text-secondary small">
+                                    <i class="bi bi-clock text-warning"></i>
+                                    <span>20 Weeks Intensive Live Program</span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2 text-secondary small">
+                                    <i class="bi bi-people text-warning"></i>
+                                    <span>20+ Real-World Projects + Certification</span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2 text-secondary small">
+                                    <i class="bi bi-shield-check text-warning"></i>
+                                    <span>Structured Career + Interview Prep Support</span>
+                                </li>
+                            </ul>
+
+                            <!-- Buttons Row -->
+                            <div class="row g-2">
+                                <div class="col-6">
+                                    <a href="#"
+                                        class="btn btn-outline-dark btn-sm w-100 py-2 rounded-3 fw-semibold d-flex align-items-center justify-content-center gap-1"
+                                        style="font-size: 0.8rem;">
+                                        <i class="bi bi-telephone"></i>
+                                        Talk to Advisor
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="#"
+                                        class="btn btn-primary-custom btn-sm w-100 py-2 rounded-3 fw-semibold d-flex align-items-center justify-content-center gap-1"
+                                        style="font-size: 0.8rem;">
+                                        Enroll Now
+                                        <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Section 2: Final Call to Action (Light Background) -->
+        <section class="cta-section py-5 bg-light-purple">
+            <div class="container py-4 text-center">
+
+                <!-- Main Title -->
+                <h2 class="fw-bold fs-1 text-dark mb-2">
+                    Ready to become a <span class="text-navy">Full Stack AI Developer</span>
+                </h2>
+                <h3 class="fw-bold fs-2 text-dark mb-3">in Just 20 Weeks?</h3>
+
+                <!-- Subtitle Badge -->
+                <div
+                    class="d-flex align-items-center justify-content-center gap-2 text-primary-custom mb-4 small fw-medium">
+                    <i class="bi bi-people"></i>
+                    <span>Join 20,000+ Successful Learners</span>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="d-flex flex-wrap justify-content-center gap-3">
+                    <a href="#"
+                        class="btn btn-outline-primary-custom px-4 py-2 rounded-3 fw-semibold d-flex align-items-center gap-2"
+                        style="font-size: 0.875rem;">
+                        <i class="bi bi-telephone"></i>
+                        Request a Callback
+                    </a>
+                    <a href="#" class="btn btn-primary-custom px-4 py-2 rounded-3 fw-semibold"
+                        style="font-size: 0.875rem;">
+                        Apply Now - Secure Your Seat
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <!-- FAQ Section -->
+        <section class="faq-section py-5">
+            <div class="container py-4">
+
+                <!-- Section Header -->
+                <div class="text-center text-white mb-5">
+                    <h2 class="fw-bold fs-1 mb-2">Frequently Asked Question</h2>
+                    <p class="text-white-50 small mb-0">Get your every question answered here.</p>
+                </div>
+
+                <!-- FAQ Card Wrapper -->
+                <div class="faq-card bg-white p-3 p-md-4 shadow-lg">
+                    <div class="accordion faq-accordion" id="faqAccordion">
+
+                        <!-- Item 06 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading06">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse06" aria-expanded="false" aria-controls="collapse06">
+                                    <span class="faq-number">06</span>
+                                    <span>Is certification provided after completion?</span>
+                                </button>
+                            </h2>
+                            <div id="collapse06" class="accordion-collapse collapse" aria-labelledby="heading06"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body faq-body-text pt-0 pb-3">
+                                    Yes, upon successful completion of the program, you will receive an
+                                    industry-recognized certificate from WsCube Tech.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 07 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading07">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse07" aria-expanded="false" aria-controls="collapse07">
+                                    <span class="faq-number">07</span>
+                                    <span>Who should join this full stack developer course online?</span>
+                                </button>
+                            </h2>
+                            <div id="collapse07" class="accordion-collapse collapse" aria-labelledby="heading07"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body faq-body-text pt-0 pb-3">
+                                    This course is suitable for beginners, college students, working professionals
+                                    seeking a career transition, or entrepreneurs looking to build their own web
+                                    products.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 08 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading08">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse08" aria-expanded="false" aria-controls="collapse08">
+                                    <span class="faq-number">08</span>
+                                    <span>Do I need any prior coding experience to enroll in the course?</span>
+                                </button>
+                            </h2>
+                            <div id="collapse08" class="accordion-collapse collapse" aria-labelledby="heading08"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body faq-body-text pt-0 pb-3">
+                                    No prior coding experience is required. The course starts with fundamental concepts
+                                    and gradually moves to advanced full-stack & AI development.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 09 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading09">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse09" aria-expanded="false" aria-controls="collapse09">
+                                    <span class="faq-number">09</span>
+                                    <span>What makes our course stand out from others?</span>
+                                </button>
+                            </h2>
+                            <div id="collapse09" class="accordion-collapse collapse" aria-labelledby="heading09"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body faq-body-text pt-0 pb-3">
+                                    Our curriculum integrates real-world hands-on projects, personalized mentorship,
+                                    structured career support, and modern AI engineering skills.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 10 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading10">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                                    <span class="faq-number">10</span>
+                                    <span>Can I work on real projects during the course?</span>
+                                </button>
+                            </h2>
+                            <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body faq-body-text pt-0 pb-3">
+                                    Yes, you will work on 20+ real-world industry projects to build a solid portfolio
+                                    for prospective employers.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 11 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading11">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                                    <span class="faq-number">11</span>
+                                    <span>Is there a certification upon completion of the course?</span>
+                                </button>
+                            </h2>
+                            <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body faq-body-text pt-0 pb-3">
+                                    Yes, you receive a verified digital certificate with lifetime validity that can be
+                                    shared on LinkedIn and your resume.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 12 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading12">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                                    <span class="faq-number">12</span>
+                                    <span>Can I become a Full Stack Developer with no prior coding experience?</span>
+                                </button>
+                            </h2>
+                            <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body faq-body-text pt-0 pb-3">
+                                    Absolutely. Our step-by-step curriculum is designed to take learners from scratch to
+                                    professional proficiency.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 13 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading13">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                                    <span class="faq-number">13</span>
+                                    <span>What is the average salary of a Full Stack Developer?</span>
+                                </button>
+                            </h2>
+                            <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body faq-body-text pt-0 pb-3">
+                                    Salaries vary by experience and location, but entry-to-mid-level full-stack
+                                    developers typically earn competitive industry packages starting from ₹5–12 LPA
+                                    upwards.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 14 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading14">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                                    <span class="faq-number">14</span>
+                                    <span>Do I need a degree to pursue a career in Full Stack Development?</span>
+                                </button>
+                            </h2>
+                            <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="heading14"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body faq-body-text pt-0 pb-3">
+                                    No, most tech companies focus on practical skills, project portfolio performance,
+                                    and problem-solving abilities over a formal degree.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 15 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading15">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+                                    <span class="faq-number">15</span>
+                                    <span>Are there opportunities for remote work in Full Stack Development?</span>
+                                </button>
+                            </h2>
+                            <div id="collapse15" class="accordion-collapse collapse" aria-labelledby="heading15"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body faq-body-text pt-0 pb-3">
+                                    Yes, full stack development is one of the most flexible fields with abundant remote
+                                    job opportunities globally.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+        <!-- Course Overview Section -->
+        <section class="about-course-section py-5 text-white">
+            <div class="container py-4">
+
+                <!-- Section Title -->
+                <h2 class="fw-bold fs-1 mb-4">Online Full Stack Developer Course</h2>
+
+                <!-- Description Paragraphs -->
+                <p class="mb-3">
+                    Ever wondered how websites and apps are built from start to finish? A full stack developer course
+                    helps you learn everything needed to create complete web applications.
+                </p>
+
+                <p class="mb-3">
+                    From designing user-friendly interfaces to building powerful back-end systems, this course covers
+                    all essential skills in a simple and practical way. If you're searching for the best full stack
+                    developer course in India, this program is designed to make learning easy and effective.
+                </p>
+
+                <p class="mb-4">
+                    You'll work on real projects, understand modern tools, and gain hands-on experience. Whether you are
+                    a beginner or someone looking to upgrade skills, this course helps you become job-ready and
+                    confident in building real-world applications.
+                </p>
+
+                <!-- Read More Link -->
+                <div>
+                    <a href="#" class="read-more-link">Read More</a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <footer class="footer-section pt-5 pb-4">
+            <div class="container py-4">
+                <div class="row g-4 justify-content-between">
+
+                    <!-- Brand / Logo Column -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <!-- Logo SVG / Graphic Placeholder -->
+                        <div class="mb-3">
+                            <svg width="180" height="50" viewBox="0 0 200 60" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 10L30 5L40 10L40 20L30 25L20 20Z" stroke="white" stroke-width="2" />
+                                <path d="M30 25L40 20L50 25L50 35L40 40L30 35Z" stroke="white" stroke-width="2" />
+                                <path d="M10 25L20 20L30 25L30 35L20 40L10 35Z" stroke="white" stroke-width="2" />
+                                <text x="60" y="30" fill="white" font-size="18" font-weight="bold"
+                                    font-family="sans-serif">WsCUBE TECH</text>
+                                <text x="85" y="45" fill="#a5b4fc" font-size="9" font-family="sans-serif">Upskilling
+                                    Bharat</text>
+                            </svg>
+                        </div>
+
+                        <p class="small text-white-50 mb-4 fw-medium" style="max-width: 260px; line-height: 1.4;">
+                            Elevate Your Learning Journey with Cutting-Edge Education Technology.
+                        </p>
+
+                        <!-- Social Media Links -->
+                        <div class="d-flex gap-2">
+                            <a href="#" class="social-icon" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+                            <a href="#" class="social-icon" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                            <a href="#" class="social-icon" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                            <a href="#" class="social-icon" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Column 1: Company -->
+                    <div class="col-6 col-md-2">
+                        <h5 class="footer-heading">Company</h5>
+                        <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">WsCube Tech Blog</a></li>
+                            <li><a href="#">Masterclass</a></li>
+                            <li><a href="#">Reviews</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 2: Our Programs -->
+                    <div class="col-6 col-md-3 col-lg-2">
+                        <h5 class="footer-heading">Our Programs</h5>
+                        <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
+                            <li><a href="#">Digital Marketing</a></li>
+                            <li><a href="#">Data Analytics</a></li>
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">Cyber Security</a></li>
+                            <li><a href="#">App Development</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 3: Support -->
+                    <div class="col-6 col-md-2">
+                        <h5 class="footer-heading">Support</h5>
+                        <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Refund Policy</a></li>
+                            <li><a href="#">FAQ's</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!-- Bottom Line Divider -->
+                <div class="footer-divider mt-5"></div>
+            </div>
+        </footer>
+
+
+        <section class="footer-links-section py-4">
+            <div class="container py-2">
+
+                <!-- Group 1: Popular Courses -->
+                <div>
+                    <h5>Popular Courses</h5>
+                    <div class="footer-links-list">
+                        <a href="#">Digital Marketing Course</a>
+                        <span class="separator">|</span>
+                        <a href="#">AI Course</a>
+                        <span class="separator">|</span>
+                        <a href="#">Data Analytics Course</a>
+                        <span class="separator">|</span>
+                        <a href="#">Data Science Course</a>
+                        <span class="separator">|</span>
+                        <a href="#">Business Analytics Course</a>
+                        <span class="separator">|</span>
+                        <a href="#">Full Stack Development with AI Engineering</a>
+                        <span class="separator">|</span>
+                        <a href="#">Performance Marketing Course</a>
+                        <span class="separator">|</span>
+                        <a href="#">SEO Course</a>
+                        <span class="separator">|</span>
+                        <a href="#">Ethical Hacking Course</a>
+                        <span class="separator">|</span>
+                        <a href="#">SOC Analyst Course</a>
+                        <span class="separator">|</span>
+                        <a href="#">App Development Course</a>
+                    </div>
+                </div>
+
+                <div class="footer-links-divider"></div>
+
+                <!-- Group 2: Free Courses -->
+                <div>
+                    <h5>Free Courses</h5>
+                    <div class="footer-links-list">
+                        <a href="#">Semrush Course</a>
+                        <span class="separator">|</span>
+                        <a href="#">Google Tag Manager Course</a>
+                        <span class="separator">|</span>
+                        <a href="#">Blogging Course</a>
+                        <span class="separator">|</span>
+                        <a href="#">Photoshop Course</a>
+                        <span class="separator">|</span>
+                        <a href="#">Video Editing Course</a>
+                        <span class="separator">|</span>
+                        <a href="#">AngularJS Course</a>
+                        <span class="separator">|</span>
+                        <a href="#">Shopify Course</a>
+                        <span class="separator">|</span>
+                        <a href="#">Django Course</a>
+                        <span class="separator">|</span>
+                        <a href="#">Email Marketing Course</a>
+                        <span class="separator">|</span>
+                        <a href="#">Affiliate Marketing Course</a>
+                    </div>
+                </div>
+
+                <div class="footer-links-divider"></div>
+
+                <!-- Group 3: Job Board -->
+                <div>
+                    <h5>Job Board</h5>
+                    <div class="footer-links-list">
+                        <a href="#">Digital Marketing Jobs</a>
+                        <span class="separator">|</span>
+                        <a href="#">Data Analytics Jobs</a>
+                        <span class="separator">|</span>
+                        <a href="#">Cyber Security Jobs</a>
+                        <span class="separator">|</span>
+                        <a href="#">Engineering Jobs</a>
+                    </div>
+                </div>
+
+                <div class="footer-links-divider"></div>
+
+                <!-- Group 4: Free Tutorials & Programs -->
+                <div>
+                    <h5>Free Tutorials & Programs</h5>
+                    <div class="footer-links-list mb-2">
+                        <a href="#">DSA Tutorial</a>
+                        <span class="separator">|</span>
+                        <a href="#">Python Tutorial</a>
+                        <span class="separator">|</span>
+                        <a href="#">JavaScript Tutorial</a>
+                        <span class="separator">|</span>
+                        <a href="#">C Tutorial</a>
+                        <span class="separator">|</span>
+                        <a href="#">C++ Tutorial</a>
+                        <span class="separator">|</span>
+                        <a href="#">HTML Tutorial</a>
+                        <span class="separator">|</span>
+                        <a href="#">Java Tutorial</a>
+                        <span class="separator">|</span>
+                        <a href="#">SQL Tutorial</a>
+                        <span class="separator">|</span>
+                        <a href="#">CSS Tutorial</a>
+                    </div>
+                    <div class="footer-links-list">
+                        <a href="#">Python Programs</a>
+                        <span class="separator">|</span>
+                        <a href="#">Java Programs</a>
+                        <span class="separator">|</span>
+                        <a href="#">JavaScript Programs</a>
+                        <span class="separator">|</span>
+                        <a href="#">C Programs</a>
+                        <span class="separator">|</span>
+                        <a href="#">C++ Programs</a>
+                    </div>
+                </div>
+
+                <div class="footer-links-divider"></div>
+
+                <!-- Group 5: Online Compilers -->
+                <div>
+                    <h5>Online Compilers</h5>
+                    <div class="footer-links-list">
+                        <a href="#">Python Compiler</a>
+                        <span class="separator">|</span>
+                        <a href="#">Java Compiler</a>
+                        <span class="separator">|</span>
+                        <a href="#">JavaScript Compiler</a>
+                        <span class="separator">|</span>
+                        <a href="#">HTML Editor</a>
+                        <span class="separator">|</span>
+                        <a href="#">C Compiler</a>
+                        <span class="separator">|</span>
+                        <a href="#">C++ Compiler</a>
+                        <span class="separator">|</span>
+                        <a href="#">SQL Compiler</a>
+                    </div>
+                </div>
+
+                <div class="footer-links-divider"></div>
+
+            </div>
+        </section>
+
+
+
+        <!-- Copyright Sub-bar Section -->
+        <footer class="sub-footer-section py-3">
+            <div class="container">
+                <div
+                    class="d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2 sub-footer-text">
+                    <div>
+                        © Copyright 2026, All Rights Reserved By WsCube Tech
+                    </div>
+                    <div>
+                        Version 3.4.23
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
 
 
 

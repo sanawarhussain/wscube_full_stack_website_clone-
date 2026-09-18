@@ -1,6 +1,418 @@
 @media (min-width: 1400px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl
- {
-        max-width: 1240px;
-    }
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1240px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 680px;
+  }
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 720px;
+  }
+
+  .hero-video {
+    display: none;
+  }
+
+  .left-btn-img,
+  .right-btn-img {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .right-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rating:nth-child(4),
+  .rating:nth-child(5) {
+    display: none;
+  }
+
+  .right-hero {
+    width: 100%;
+    text-align: center;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .online-badge {
+    justify-content: center;
+  }
+
+  .hero-content h1,
+  .hero-content p {
+    text-align: center;
+  }
+
+  .hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .right-hero > .row {
+    justify-content: center;
+    gap: 80px !important;
+  }
+
+  .rating {
+    display: flex;
+    gap: 15px;
+    border: none;
+    text-align: center;
+  }
+
+  .master-frontend {
+    height: auto;
+    min-height: auto;
+  }
+
+  .program-special {
+    max-width: 100%;
+    width: 90%;
+  }
+
+  .live-session-img {
+    display: none;
+  }
+
+  .live-session {
+    height: auto;
+    min-height: auto;
+  }
+
+  .live-session_ img {
+    width: 50% !important;
+    height: auto !important;
+  }
+
+  .head_para h3 {
+    font-size: 24px;
+  }
+  .head_para p {
+    font-size: 16px;
+  }
+
+  .download {
+    display: none;
+  }
+
+  .fourth-section-img {
+    display: none;
+  }
+
+  .heading-button-para {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .third-content h4 {
+    font-size: 30px !important;
+  }
+
+  .download {
+    display: inline-block;
+  }
+
+  /* Stats */
+  .all-mil {
+    flex-wrap: wrap;
+    justify-content: center !important;
+    gap: 25px;
+  }
+
+  .milestone {
+    min-width: 130px;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    text-align: center;
+  }
+
+  /* Main lower section */
+  .lower-part > .d-flex {
+    flex-direction: column;
+    align-items: center !important;
+  }
+
+  /* Sidebar */
+  #v-pills-tab {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 30px auto !important;
+
+    align-items: center;
+  }
+
+  .first-button-nav {
+    width: 100%;
+    max-width: 500px;
+    text-align: center !important;
+  }
+
+  /* Content */
+  #v-pills-tabContent {
+    width: 100%;
+    max-width: 700px;
+  }
+
+  .tab-pane {
+    width: 100%;
+  }
+
+  /* Curriculum header */
+  .tool-bar- {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .tool-bar- > .col-9 {
+    width: 100%;
+  }
+
+  .tool-bar- > .col-3 {
+    width: 100%;
+  }
+
+  .date {
+    padding: 15px 0;
+  }
+
+  /* Week cards */
+  .tool-bar- > .col-6 {
+    width: 100%;
+    padding: 30px !important;
+  }
+
+  .head-content {
+    padding: 20px;
+  }
+
+  .other-bootcamps {
+    display: none;
+  }
+
+  .comparison-column-4 {
+    display: none;
+  }
+
+  .comparison-table {
+    width: 120%;
+  }
+
+  .combine {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .left{
+    display: none;
+  }
+
+  
+  /* Show mobile header */
+  .mobile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 15px 20px;
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 42px;
+    height: 42px;
+
+    color: white;
+    background-color: transparent;
+
+    border: 1px solid white;
+    border-radius: 8px;
+
+    font-size: 20px;
+
+    cursor: pointer;
+  }
+
+  .mobile-menu-btn:hover {
+    color: #040856;
+    background-color: white;
+  }
+
+  .hero-content h1{
+    font-size: 35px;
+    width: 90%;
+  }
+   .hero-content p{
+    width: 90%;
+   }
+
+  .online-badge{
+    height: 30px; 
+  }
+
+  
+  .hero{
+    background: #00008B;
+    min-height: 580px;
+  }
+
+  .mobile-logo {
+    width: 100px;
+    height: auto;
+  }
+
+
+
+  .login-offcanvas {
+    width: 400px !important;
+    background-color: white;
+    color: black;
+}
+
+.login-offcanvas .offcanvas-header {
+    padding: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.login-offcanvas .offcanvas-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* Login Content */
+
+.login-content {
+    padding: 30px 10px;
+}
+
+.login-content h2 {
+    margin-bottom: 8px;
+
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.login-text {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+
+/* Label */
+
+.login-content label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/* Input */
+
+.login-input {
+    width: 100%;
+
+    padding: 12px 14px;
+
+    border: 1px solid #d5d5d5;
+    border-radius: 7px;
+
+    outline: none;
+
+    font-size: 15px;
+}
+
+.login-input:focus {
+    border-color: #040856;
+}
+
+
+/* Login Button */
+
+.login-submit {
+    width: 100%;
+
+    margin-top: 20px;
+
+    padding: 12px;
+
+    color: white;
+    background-color: #040856;
+
+    border: none;
+    border-radius: 7px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.login-submit:hover {
+    background-color: #02043d;
+}
+
+
+/* Create Account */
+
+.create-account {
+    margin-top: 25px;
+
+    text-align: center;
+
+    color: #666;
+    font-size: 14px;
+}
+
+.create-account a {
+    color: #040856;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+}
+
+ 
 }
