@@ -23,6 +23,10 @@
     max-width: 720px;
   }
 
+  .only-425px {
+    display: none;
+  }
+
   .hero-video {
     display: none;
   }
@@ -234,11 +238,10 @@
     display: none;
   }
 
-  .left{
+  .left {
     display: none;
   }
 
-  
   /* Show mobile header */
   .mobile-header {
     display: flex;
@@ -246,15 +249,18 @@
     justify-content: space-between;
 
     width: 100%;
-    padding: 15px 20px;
+  }
+
+  .three-bar-left {
+    display: flex;
+    gap: 10px;
   }
 
   .mobile-menu-btn {
     display: flex;
     align-items: center;
-    justify-content: center;
 
-    width: 42px;
+    width: 90px;
     height: 42px;
 
     color: white;
@@ -263,7 +269,7 @@
     border: 1px solid white;
     border-radius: 8px;
 
-    font-size: 20px;
+    font-size: 16px;
 
     cursor: pointer;
   }
@@ -273,21 +279,20 @@
     background-color: white;
   }
 
-  .hero-content h1{
-    font-size: 35px;
+  .hero-content h1 {
+    font-size: 52px;
     width: 90%;
   }
-   .hero-content p{
+  .hero-content p {
     width: 90%;
-   }
-
-  .online-badge{
-    height: 30px; 
   }
 
-  
-  .hero{
-    background: #00008B;
+  .online-badge {
+    height: 30px;
+  }
+
+  .hero {
+    background: #00008b;
     min-height: 580px;
   }
 
@@ -296,123 +301,153 @@
     height: auto;
   }
 
+  .login-buton {
+    background: transparent;
+    border: 1px solid white;
+  }
 
+  .offcanvas-length {
+    width: 100%;
+    max-width: 45%;
+  }
 
-  .login-offcanvas {
-    width: 400px !important;
-    background-color: white;
+  .all-item {
+    gap: 0px;
+  }
+
+  .offcanvas-login {
     color: black;
-}
-
-.login-offcanvas .offcanvas-header {
-    padding: 20px;
-    border-bottom: 1px solid #e5e5e5;
-}
-
-.login-offcanvas .offcanvas-title {
-    font-size: 20px;
     font-weight: 600;
-}
+    font-size: 24px;
+  }
 
+  .offcanvas-login-email {
+    display: flex;
+    justify-content: space-between;
+  }
 
-/* Login Content */
-
-.login-content {
-    padding: 30px 10px;
-}
-
-.login-content h2 {
-    margin-bottom: 8px;
-
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.login-text {
-    color: #666;
-    font-size: 14px;
-    margin-bottom: 30px;
-}
-
-
-/* Label */
-
-.login-content label {
-    display: block;
-
-    margin-bottom: 8px;
-
-    font-size: 14px;
-    font-weight: 500;
-}
-
-
-/* Input */
-
-.login-input {
-    width: 100%;
-
-    padding: 12px 14px;
-
-    border: 1px solid #d5d5d5;
-    border-radius: 7px;
-
-    outline: none;
-
-    font-size: 15px;
-}
-
-.login-input:focus {
-    border-color: #040856;
-}
-
-
-/* Login Button */
-
-.login-submit {
-    width: 100%;
-
-    margin-top: 20px;
-
-    padding: 12px;
-
-    color: white;
-    background-color: #040856;
-
-    border: none;
-    border-radius: 7px;
-
+  .offcanvas-email {
+    color: rgb(15, 98, 254);
     font-size: 16px;
-    font-weight: 600;
+  }
 
-    cursor: pointer;
+  .enter-number {
+    display: flex;
+    justify-content: center;
+  }
+
+  .enter-number input {
+    border: 3px solid black;
+    max-width: 100%;
+    width: 79%;
+    height: 47px;
+    border-radius: 10px;
+  }
+
+  .india-flag {
+    position: absolute;
+    top: 175px;
+    left: 60px;
+  }
+
+  .offcanvas-login-button {
+    color: white;
+    background-color: #194cff;
+    width: 100%;
+    height: 18%;
+  }
+
+  .create-an-account {
+    color: blue;
+  }
+
+  .last-offcanvas {
+    background: transparent;
+    border: none;
+  }
 }
 
-.login-submit:hover {
-    background-color: #02043d;
+@media (max-width: 426px) {
+
+  .hero-content{
+    display: flex;
+    gap: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 25px;
+  }
+
+  .hero-content p {
+    display: none;
+  }
+
+  .only-big{
+    display: none;
+  }
+
+  .only-425px{
+    display: block;
+    display: flex;
+    gap: 40px;
+  }
+
+  .hero-button {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pl-re {
+    display: none;
+  }
+
+  .call-progress {
+    width: 100%;
+    height: 50px;
+    padding: 0px 68px;
+    border: 1px solid white;
+    background: transparent;
+    
+  }
+
+  .do-cu{
+    width: 100%;
+  }
+
+  .live-session_ {
+    display: none;
+  }
+
+  .offcanvas-length {
+    max-width: 100%;
+    width: 80%;
+    background-color: #666;
+  }
+
+  .master-frontend{
+    padding: 10px;
+  }
+
+    .master-frontend h3 {
+      font-size: 18px;
+
+    }
+
+    .master-frontend p{
+      font-size: 16px;
+    }
+
+    .live-session{
+      padding: 0px;
+      gap: 0px;
+    }
+  
+
+        .comparison-table{
+          width: 115%;
+        }
+.featured-header h4 {
+  font-size: 16px;
 }
 
-
-/* Create Account */
-
-.create-account {
-    margin-top: 25px;
-
-    text-align: center;
-
-    color: #666;
-    font-size: 14px;
-}
-
-.create-account a {
-    color: #040856;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.create-account a:hover {
-    text-decoration: underline;
-}
-
- 
 }
